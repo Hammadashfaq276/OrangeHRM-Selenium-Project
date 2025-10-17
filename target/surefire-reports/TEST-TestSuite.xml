@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="306.709" tests="50" errors="0" skipped="3" failures="3">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\shykh\.cache\selenium\chromedriver\win64\141.0.7390.78\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\shykh\eclipse-workspace\orangehrm-automation\target\test-classes;C:\Users\shykh\eclipse-workspace\orangehrm-automation\target\classes;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\shykh\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\shykh\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\shykh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shykh\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\shykh\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\shykh\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\shykh\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.1\webdrivermanager-6.3.1.jar;C:\Users\shykh\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\shykh\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\shykh\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\shykh\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\shykh\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\shykh\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\shykh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\shykh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\shykh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\shykh\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\shykh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\shykh\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\shykh\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\shykh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\shykh\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\shykh\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\shykh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\shykh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\shykh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\shykh\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\shykh\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\shykh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\shykh\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\shykh\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\shykh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\shykh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\shykh\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\shykh\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\shykh\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\shykh\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\shykh\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\shykh\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;C:\Users\shykh\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;C:\Users\shykh\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\shykh\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\shykh\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\shykh\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\shykh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\shykh\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="user.country.format" value="NL"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\shykh\AppData\Local\Temp\surefire17827842286059339592\surefirebooter-20251018001717169_3.jar C:\Users\shykh\AppData\Local\Temp\surefire17827842286059339592 2025-10-18T00-17-16_997-jvmRun1 surefire-20251018001717169_1tmp surefire_0-20251018001717169_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\shykh\eclipse-workspace\orangehrm-automation\target\test-classes;C:\Users\shykh\eclipse-workspace\orangehrm-automation\target\classes;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\shykh\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\shykh\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\shykh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shykh\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\shykh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\shykh\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\shykh\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\shykh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\shykh\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.1\webdrivermanager-6.3.1.jar;C:\Users\shykh\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\shykh\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\shykh\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\shykh\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\shykh\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\shykh\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\shykh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\shykh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\shykh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\shykh\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\shykh\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\shykh\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\shykh\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\shykh\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\shykh\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\shykh\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\shykh\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\shykh\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\shykh\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\shykh\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\shykh\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\shykh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\shykh\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\shykh\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\shykh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\shykh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\shykh\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\shykh\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\shykh\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\shykh\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\shykh\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\shykh\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;C:\Users\shykh\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;C:\Users\shykh\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\shykh\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\shykh\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\shykh\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\shykh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\shykh\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\shykh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\shykh\eclipse-workspace\orangehrm-automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\shykh\AppData\Local\Temp\surefire17827842286059339592\surefirebooter-20251018001717169_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="Hammad Ashfaq"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\shykh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\shykh\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="C:\Users\shykh\eclipse-workspace\orangehrm-automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\shykh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.9.11\bin;%JAVA_HOME%\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.6\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="loginTest" classname="Admin.Create_User" time="17.811">
+    <system-out><![CDATA[[00:17:22] [INFO] Create_User - Browser launched and LoginPage initialized.
+[00:17:23] [INFO] Create_User - Total rows in Excel: 4
+[00:17:23] [INFO] Create_User - Testing with Username: test | Password: test123
+[00:17:23] [INFO] Create_User - Page Title: OrangeHRM
+[00:17:29] [WARN] Create_User - ❌ Login FAILED for user: test
+[00:17:29] [INFO] Create_User - Testing with Username: Admin | Password: admin456
+[00:17:29] [INFO] Create_User - Page Title: OrangeHRM
+[00:17:36] [WARN] Create_User - ❌ Login FAILED for user: Admin
+[00:17:36] [INFO] Create_User - Testing with Username: Admin | Password: admin123
+[00:17:36] [INFO] Create_User - Page Title: OrangeHRM
+[00:17:38] [INFO] Create_User - ✅ Login SUCCESS for user: Admin
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+2025-10-17T19:17:18.461590600Z main INFO Starting configuration XmlConfiguration[location=C:\Users\shykh\eclipse-workspace\orangehrm-automation\target\classes\log4j2.xml, lastModified=2025-10-12T18:16:09.273Z]...
+2025-10-17T19:17:18.463080200Z main INFO Configuration XmlConfiguration[location=C:\Users\shykh\eclipse-workspace\orangehrm-automation\target\classes\log4j2.xml, lastModified=2025-10-12T18:16:09.273Z] started.
+2025-10-17T19:17:18.469082200Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@3a0baae5...
+2025-10-17T19:17:18.470082700Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@3a0baae5 stopped.
+Oct 18, 2025 12:17:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="createUserTest" classname="Admin.Create_User" time="21.155">
+    <system-out><![CDATA[[00:17:40] [INFO] Create_User - Total rows in CreateUser sheet: 4
+[00:17:40] [INFO] Create_User - Creating new user -> Role: Admin, Employee: Russel Hamilton, Status: Enabled, Username: Hammad125
+[00:17:40] [INFO] Admin_CreateUser - Admin_CreateUser page initialized.
+[00:17:41] [INFO] Admin_CreateUser - Clicked Add button.
+[00:17:42] [INFO] Admin_CreateUser - Selecting user role: Admin
+[00:17:42] [INFO] Admin_CreateUser - Role selected: Admin
+[00:17:42] [INFO] Admin_CreateUser - Selecting employee: Russel Hamilton
+[00:17:43] [INFO] Admin_CreateUser - Employee selected: Russel Hamilton
+[00:17:43] [INFO] Admin_CreateUser - Selecting status: Enabled
+[00:17:43] [INFO] Admin_CreateUser - Status selected: Enabled
+[00:17:43] [INFO] Admin_CreateUser - Entered username: Hammad125
+[00:17:44] [INFO] Admin_CreateUser - Entered and confirmed password.
+[00:17:44] [INFO] Admin_CreateUser - Clicked Save button.
+Toast Message: Success Successfully Saved
+[00:17:46] [INFO] Create_User - ✅ User created successfully: Hammad125
+[00:17:46] [INFO] Create_User - Creating new user -> Role: ESS, Employee: Russel Hamilton, Status: Enabled, Username: Linda101
+[00:17:46] [INFO] Admin_CreateUser - Admin_CreateUser page initialized.
+[00:17:50] [INFO] Admin_CreateUser - Clicked Add button.
+[00:17:50] [INFO] Admin_CreateUser - Selecting user role: ESS
+[00:17:50] [INFO] Admin_CreateUser - Role selected: ESS
+[00:17:50] [INFO] Admin_CreateUser - Selecting employee: Russel Hamilton
+[00:17:51] [INFO] Admin_CreateUser - Employee selected: Russel Hamilton
+[00:17:51] [INFO] Admin_CreateUser - Selecting status: Enabled
+[00:17:51] [INFO] Admin_CreateUser - Status selected: Enabled
+[00:17:52] [INFO] Admin_CreateUser - Entered username: Linda101
+[00:17:52] [INFO] Admin_CreateUser - Entered and confirmed password.
+[00:17:52] [INFO] Admin_CreateUser - Clicked Save button.
+Toast Message: Success Successfully Saved
+[00:17:53] [INFO] Create_User - ✅ User created successfully: Linda101
+[00:17:53] [INFO] Create_User - Creating new user -> Role: Admin, Employee: Russel Hamilton, Status: Disabled, Username: JohnTest
+[00:17:53] [INFO] Admin_CreateUser - Admin_CreateUser page initialized.
+[00:17:57] [INFO] Admin_CreateUser - Clicked Add button.
+[00:17:58] [INFO] Admin_CreateUser - Selecting user role: Admin
+[00:17:58] [INFO] Admin_CreateUser - Role selected: Admin
+[00:17:58] [INFO] Admin_CreateUser - Selecting employee: Russel Hamilton
+[00:17:59] [INFO] Admin_CreateUser - Employee selected: Russel Hamilton
+[00:17:59] [INFO] Admin_CreateUser - Selecting status: Disabled
+[00:18:00] [INFO] Admin_CreateUser - Status selected: Disabled
+[00:18:00] [INFO] Admin_CreateUser - Entered username: JohnTest
+[00:18:00] [INFO] Admin_CreateUser - Entered and confirmed password.
+[00:18:00] [INFO] Admin_CreateUser - Clicked Save button.
+Toast Message: Success Successfully Saved
+[00:18:01] [INFO] Create_User - ✅ User created successfully: JohnTest
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="Admin.Create_User" time="1.466">
+    <system-out><![CDATA[[00:18:03] [INFO] Create_User - ✅ Logout successful.
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="Admin.Delete_User" time="3.126">
+    <system-out><![CDATA[[00:18:03] [INFO] Create_User - Browser closed and test execution completed.
+[00:18:03] [INFO] Delete_User - === Test Setup Started ===
+[00:18:07] [INFO] Delete_User - Browser launched and navigated to the application URL.
+[00:18:07] [INFO] Delete_User - Starting Login Test...
+[00:18:07] [INFO] Delete_User - Page Title: OrangeHRM
+[00:18:07] [INFO] Delete_User - Entered username: Admin
+[00:18:07] [INFO] Delete_User - Entered password.
+[00:18:07] [INFO] Delete_User - Clicked on Login button.
+[00:18:10] [INFO] Delete_User - Navigated to Admin menu after login.
+[00:18:10] [INFO] Delete_User - ✅ Login Test completed successfully.
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:18:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="deleteUserTest" classname="Admin.Delete_User" time="2.102">
+    <system-out><![CDATA[[00:18:10] [INFO] Delete_User - Starting Delete User Test...
+[00:18:10] [INFO] Admin_DeleteUser - Admin_DeleteUser page initialized successfully.
+[00:18:10] [INFO] Delete_User - Attempting to delete 3rd user record...
+[00:18:10] [INFO] Admin_DeleteUser - === Starting delete process for 3rd record ===
+[00:18:10] [INFO] Admin_DeleteUser - Clicking the 3rd trash (delete) button...
+[00:18:11] [INFO] Admin_DeleteUser - Clicked the 3rd trash button successfully.
+[00:18:11] [INFO] Admin_DeleteUser - Confirming the delete action...
+[00:18:11] [INFO] Admin_DeleteUser - Delete confirmed successfully.
+[00:18:11] [INFO] Admin_DeleteUser - ✅ 3rd record deleted successfully.
+Toast Message: Success Successfully Deleted
+[00:18:12] [INFO] Delete_User - ✅ User deleted successfully and toast message verified.
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="Admin.Delete_User" time="1.459">
+    <system-out><![CDATA[[00:18:12] [INFO] Delete_User - Starting Logout Test...
+[00:18:13] [INFO] Delete_User - ✅ Logged out successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="Admin.Edit_User" time="3.314">
+    <system-out><![CDATA[[00:18:13] [INFO] Delete_User - Tearing down browser session...
+[00:18:14] [INFO] Delete_User - === Test Execution Completed ===
+[00:18:14] [INFO] Edit_User - === Test Setup Started ===
+[00:18:17] [INFO] Edit_User - Browser launched, URL opened, and LoginPage initialized.
+[00:18:17] [INFO] Edit_User - === Starting Login Test ===
+[00:18:17] [INFO] Edit_User - Page Title: OrangeHRM
+[00:18:18] [INFO] Edit_User - Entered username: Admin
+[00:18:18] [INFO] Edit_User - Entered password.
+[00:18:18] [INFO] Edit_User - Clicked Login button.
+[00:18:20] [INFO] Edit_User - Clicked on 'Admin' menu.
+[00:18:20] [INFO] Edit_User - ✅ Login Test completed successfully.
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:18:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="editUserTest" classname="Admin.Edit_User" time="14.291">
+    <failure message="Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (2b3d0a4143c1434196dfa6b7a410fbcd)] -&gt; xpath: //div[contains(@class,&apos;oxd-toast&apos;)]] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\shykh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60894/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2b3d0a4143c1434196dfa6b7a410fbcd" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (2b3d0a4143c1434196dfa6b7a410fbcd)] -> xpath: //div[contains(@class,'oxd-toast')]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\shykh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60894/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b3d0a4143c1434196dfa6b7a410fbcd
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at orangehrm.PageObject.LoginPage.getToastMessage(LoginPage.java:97)
+	at orangehrm.PageObject.LoginPage.verifyToastMessage(LoginPage.java:104)
+	at Admin.Edit_User.editUserTest(Edit_User.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[00:18:20] [INFO] Edit_User - === Starting Edit User Test ===
+[00:18:20] [INFO] Admin_Edit_User - Admin_Edit_User page initialized.
+[00:18:20] [INFO] Edit_User - Editing user: Role=ESS, Employee=James A Simon, Status=Disabled, Username=Hammad137
+[00:18:20] [INFO] Admin_Edit_User - Starting editUser flow for employee: Russel Hamilton
+[00:18:22] [INFO] Admin_Edit_User - Clicked Edit (pencil) button for second user record.
+[00:18:22] [INFO] Admin_Edit_User - Selecting user role: ESS
+[00:18:22] [INFO] Admin_Edit_User - User role selected: ESS
+[00:18:22] [INFO] Admin_Edit_User - Selecting employee using partial: 'ha' and full name: 'Russel Hamilton'
+[00:18:24] [INFO] Admin_Edit_User - Employee selected: Russel Hamilton
+[00:18:24] [INFO] Admin_Edit_User - Selecting status: Disabled
+[00:18:24] [INFO] Admin_Edit_User - Status selected: Disabled
+[00:18:24] [INFO] Admin_Edit_User - Updating username to: Hammad137
+[00:18:24] [INFO] Admin_Edit_User - Username field updated successfully.
+[00:18:24] [INFO] Admin_Edit_User - Enabled checkbox toggled.
+[00:18:24] [INFO] Admin_Edit_User - Updating password fields.
+[00:18:24] [INFO] Admin_Edit_User - Password and Confirm Password fields updated.
+[00:18:25] [INFO] Admin_Edit_User - Clicked Save button to submit user details.
+[00:18:25] [INFO] Admin_Edit_User - ✅ Edit user flow completed successfully for Hammad137
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="Admin.Edit_User" time="0.0">
+    <skipped message="Method Admin.Edit_User.logoutTest() on instance Admin.Edit_User@6d0b5baf depends on not successfully finished methods &#10;[Admin.Edit_User.editUserTest() on instance Admin.Edit_User@6d0b5baf]"/>
+  </testcase>
+  <testcase name="loginTest" classname="Admin.Search_User" time="3.682">
+    <system-out><![CDATA[[00:18:35] [INFO] Edit_User - === Test Execution Completed. Closing Browser... ===
+[00:18:35] [INFO] Edit_User - Browser closed successfully.
+[00:18:35] [INFO] Search_User - === Test Setup Started ===
+[00:18:38] [INFO] Search_User - Browser launched and navigated to the application URL.
+[00:18:38] [INFO] Search_User - Starting Login Test...
+[00:18:38] [INFO] Search_User - Page Title: OrangeHRM
+[00:18:39] [INFO] Search_User - Entered username: Admin
+[00:18:39] [INFO] Search_User - Entered password.
+[00:18:39] [INFO] Search_User - Clicked Login button successfully.
+[00:18:42] [INFO] Search_User - Navigated to Admin section after login.
+[00:18:42] [INFO] Search_User - ✅ Login Test completed successfully.
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:18:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="searchUserTest" classname="Admin.Search_User" time="3.081">
+    <failure message="Record text did not match! expected [(1) Record Found] but found [No Records Found]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Record text did not match! expected [(1) Record Found] but found [No Records Found]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at orangehrm.PageObject.Admin_SearchUser.getRecordText(Admin_SearchUser.java:110)
+	at Admin.Search_User.searchUserTest(Search_User.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[00:18:42] [INFO] Search_User - Starting Search User Test...
+[00:18:42] [INFO] Admin_SearchUser - Admin_SearchUser Page Initialized.
+[00:18:42] [INFO] Search_User - Entering search criteria...
+[00:18:42] [INFO] Admin_SearchUser - Entering username: Hammad123
+[00:18:43] [INFO] Admin_SearchUser - Selecting user role: Admin
+[00:18:43] [INFO] Admin_SearchUser - Role selected: Admin
+[00:18:43] [INFO] Admin_SearchUser - Selecting employee from autocomplete. Partial: 'ha', Full: 'Russel Hamilton'
+[00:18:44] [INFO] Admin_SearchUser - Employee selected: Russel Hamilton
+[00:18:44] [INFO] Admin_SearchUser - Selecting status: Enabled
+[00:18:44] [INFO] Admin_SearchUser - Status selected: Enabled
+[00:18:44] [INFO] Admin_SearchUser - Clicking on Search button...
+[00:18:45] [INFO] Admin_SearchUser - Search button clicked successfully.
+[00:18:45] [INFO] Search_User - Search initiated with provided filters.
+[00:18:45] [INFO] Admin_SearchUser - Verifying record text...
+[00:18:45] [INFO] Admin_SearchUser - Record Text found: No Records Found
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="Admin.Search_User" time="0.0">
+    <skipped message="Method Admin.Search_User.logoutTest() on instance Admin.Search_User@631e06ab depends on not successfully finished methods &#10;[Admin.Search_User.searchUserTest() on instance Admin.Search_User@631e06ab]"/>
+  </testcase>
+  <testcase name="loginTest" classname="Buzz.AddPost" time="2.953">
+    <system-out><![CDATA[[00:18:45] [INFO] Search_User - Tearing down browser session...
+[00:18:45] [INFO] Search_User - === Test Execution Completed ===
+[00:18:46] [INFO] AddPost - ===== Starting AddPost Test Suite =====
+[00:18:49] [INFO] AddPost - Browser launched and navigated to URL successfully.
+[00:18:49] [INFO] AddPost - Starting login test...
+[00:18:49] [INFO] AddPost - Page title fetched: OrangeHRM
+[00:18:50] [INFO] AddPost - Entered username.
+[00:18:50] [INFO] AddPost - Entered password.
+[00:18:50] [INFO] AddPost - Clicked on login button.
+[00:18:52] [INFO] AddPost - Navigated to Buzz page successfully.
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:18:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="addLikeCommentTest" classname="Buzz.AddPost" time="3.116">
+    <system-out><![CDATA[[00:18:52] [INFO] AddPost - Starting add/like/comment test...
+[00:18:52] [INFO] Buzz_AddPost - Buzz_AddPost page initialized successfully.
+[00:18:52] [INFO] AddPost - Using image file path: D:/Web Automation Selenium with java - Rahul Shetty udemy paid course/FB_IMG_1715625292457.jpg
+[00:18:52] [INFO] Buzz_AddPost - Attempting to create a new post with message: 'This is Testing demo' and file: 'D:/Web Automation Selenium with java - Rahul Shetty udemy paid course/FB_IMG_1715625292457.jpg'
+[00:18:54] [INFO] Buzz_AddPost - Clicked 'Create Post' button.
+[00:18:54] [INFO] Buzz_AddPost - Entered post message.
+[00:18:54] [INFO] Buzz_AddPost - Attached file: D:/Web Automation Selenium with java - Rahul Shetty udemy paid course/FB_IMG_1715625292457.jpg
+[00:18:54] [INFO] Buzz_AddPost - Clicked on Post button.
+[00:18:55] [INFO] Buzz_AddPost - ✅ Post created successfully and new post is visible.
+[00:18:55] [INFO] AddPost - Post created successfully with message and image.
+[00:18:55] [INFO] Buzz_AddPost - Attempting to like the latest post...
+[00:18:55] [INFO] Buzz_AddPost - ✅ Latest post liked successfully.
+[00:18:55] [INFO] AddPost - Liked the latest post successfully.
+[00:18:55] [INFO] Buzz_AddPost - Attempting to comment on the latest post with text: 'Test comment'
+[00:18:55] [INFO] Buzz_AddPost - Clicked on comment icon.
+[00:18:55] [INFO] Buzz_AddPost - ✅ Comment posted successfully: 'Test comment'
+[00:18:55] [INFO] AddPost - Added comment on latest post successfully.
+Toast Message: Success Successfully Saved
+[00:18:56] [INFO] AddPost - ✅ Verified toast message successfully: 'Success Successfully Saved'
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="Buzz.AddPost" time="1.459">
+    <system-out><![CDATA[[00:18:56] [INFO] AddPost - Starting logout test...
+[00:18:57] [INFO] AddPost - ✅ Logout successful.
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="Buzz.DeletePost" time="3.365">
+    <system-out><![CDATA[[00:18:57] [INFO] AddPost - ===== AddPost Test Suite Finished Successfully =====
+[00:18:57] [INFO] DeletePost - ===== Starting DeletePost Test Suite =====
+[00:19:01] [INFO] DeletePost - Browser initialized and URL opened successfully.
+[00:19:01] [INFO] DeletePost - Starting loginTest...
+[00:19:01] [INFO] DeletePost - Page title: OrangeHRM
+[00:19:01] [INFO] DeletePost - Entered username: Admin
+[00:19:01] [INFO] DeletePost - Entered password.
+[00:19:01] [INFO] DeletePost - Clicked login button.
+[00:19:04] [INFO] DeletePost - Navigated to Buzz module successfully.
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:18:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="deletePostTest" classname="Buzz.DeletePost" time="3.197">
+    <system-out><![CDATA[[00:19:04] [INFO] DeletePost - Starting deletePostTest...
+[00:19:04] [INFO] Buzz_DeletePost - Buzz_DeletePost page initialized successfully.
+[00:19:04] [INFO] Buzz_DeletePost - Attempting to delete the latest post...
+[00:19:05] [INFO] Buzz_DeletePost - Clicked on three dots menu of latest post.
+[00:19:06] [INFO] Buzz_DeletePost - Selected 'Delete Post' option.
+[00:19:07] [INFO] Buzz_DeletePost - Clicked on confirm delete button.
+[00:19:07] [INFO] Buzz_DeletePost - ✅ Latest post deleted successfully.
+Toast Message: Success Successfully Deleted
+[00:19:07] [INFO] DeletePost - ✅ Post deleted successfully and toast verified.
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="Buzz.DeletePost" time="1.622">
+    <system-out><![CDATA[[00:19:07] [INFO] DeletePost - Executing logoutTest...
+[00:19:09] [INFO] DeletePost - User logged out successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="Buzz.EditPost" time="2.574">
+    <system-out><![CDATA[[00:19:09] [INFO] DeletePost - Closing browser and ending DeletePost test suite...
+[00:19:09] [INFO] DeletePost - ===== DeletePost Test Suite Finished =====
+[00:19:09] [INFO] EditPost - ===== Starting EditPost Test Suite =====
+[00:19:13] [INFO] EditPost - Browser launched and navigated to application URL.
+[00:19:13] [INFO] EditPost - ===== Starting loginTest =====
+[00:19:13] [INFO] EditPost - Page title: OrangeHRM
+[00:19:13] [INFO] EditPost - Entered username: Admin
+[00:19:13] [INFO] EditPost - Entered password.
+[00:19:13] [INFO] EditPost - Clicked on Login button.
+[00:19:15] [INFO] EditPost - Navigated to Buzz module.
+[00:19:15] [INFO] EditPost - ===== loginTest completed successfully =====
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:19:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="editPostTest" classname="Buzz.EditPost" time="3.765">
+    <system-out><![CDATA[[00:19:15] [INFO] EditPost - ===== Starting editPostTest =====
+[00:19:15] [INFO] Buzz_EditPost - Buzz_EditPost page initialized successfully.
+[00:19:16] [INFO] Buzz_EditPost - Clicked on the three dots icon of the first post.
+[00:19:16] [INFO] EditPost - Clicked on three dots icon of latest post.
+[00:19:17] [INFO] Buzz_EditPost - Clicked on 'Edit Post' option.
+[00:19:17] [INFO] Buzz_EditPost - Edit textarea is now visible.
+[00:19:17] [INFO] EditPost - Opened Edit Post modal.
+[00:19:18] [INFO] Buzz_EditPost - Edited post text successfully with: 'This is the new testing demo text version one'
+[00:19:18] [INFO] EditPost - Updated post text: 'This is the new testing demo text version one'
+[00:19:18] [INFO] Buzz_EditPost - Uploaded file successfully: D:/Web Automation Selenium with java - Rahul Shetty udemy paid course/FB_IMG_1715625292457.jpg
+[00:19:18] [INFO] EditPost - Uploaded image file from: D:/Web Automation Selenium with java - Rahul Shetty udemy paid course/FB_IMG_1715625292457.jpg
+[00:19:18] [INFO] Buzz_EditPost - Clicked on Post button to save changes.
+[00:19:18] [INFO] EditPost - Clicked on Post button to save changes.
+Toast Message: Success Successfully Updated
+[00:19:19] [INFO] EditPost - Verified success toast message for post update.
+[00:19:19] [INFO] EditPost - ===== editPostTest completed successfully =====
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="Buzz.EditPost" time="1.472">
+    <system-out><![CDATA[[00:19:19] [INFO] EditPost - ===== Starting logoutTest =====
+[00:19:20] [INFO] EditPost - User logged out successfully.
+[00:19:20] [INFO] EditPost - ===== logoutTest completed successfully =====
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="Claim.AddClaim" time="3.028">
+    <system-out><![CDATA[[00:19:21] [INFO] EditPost - Browser closed and resources cleaned up.
+[00:19:21] [INFO] EditPost - ===== EditPost Test Suite Finished =====
+[00:19:21] [INFO] AddClaim - ===== Starting AddClaim Test =====
+[00:19:24] [INFO] AddClaim - Browser launched and URL opened successfully.
+[00:19:24] [INFO] AddClaim - Starting login test...
+[00:19:24] [INFO] AddClaim - Page title: OrangeHRM
+[00:19:27] [INFO] AddClaim - Login successful and navigated to 'Claim' menu.
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:19:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="assignClaimTest[ha, Russel Hamilton, Travel Allowance, Pakistan Rupee, This is Testing Remarks](1)" classname="Claim.AddClaim" time="16.048">
+    <system-out><![CDATA[[00:19:27] [INFO] AddClaim - Fetching claim data from Excel...
+[00:19:27] [INFO] AddClaim - Excel data loaded successfully with 3 rows.
+[00:19:27] [INFO] AddClaim - ===== Starting Assign Claim Test for Employee: Russel Hamilton =====
+[00:19:27] [INFO] Claim_AssignClaim - Claim_AssignClaim page initialized successfully.
+[00:19:27] [INFO] Claim_AssignClaim - Clicking 'Add Expense' button...
+[00:19:28] [INFO] AddClaim - Clicked on 'Add Expense' button.
+[00:19:28] [INFO] Claim_AssignClaim - Selecting employee with partial text 'ha' and full name 'Russel Hamilton'
+[00:19:30] [INFO] Claim_AssignClaim - Selected employee: Russel Hamilton
+[00:19:30] [INFO] AddClaim - Selected employee: Russel Hamilton (ha)
+[00:19:30] [INFO] Claim_AssignClaim - Selecting allowance: Travel Allowance
+[00:19:30] [INFO] Claim_AssignClaim - Allowance 'Travel Allowance' selected.
+[00:19:30] [INFO] AddClaim - Selected allowance: Travel Allowance
+[00:19:30] [INFO] Claim_AssignClaim - Selecting currency: Pakistan Rupee
+[00:19:32] [INFO] Claim_AssignClaim - Currency 'Pakistan Rupee' selected.
+[00:19:32] [INFO] AddClaim - Selected currency: Pakistan Rupee
+[00:19:32] [INFO] Claim_AssignClaim - Entering remarks: This is Testing Remarks
+[00:19:32] [INFO] AddClaim - Entered remarks: This is Testing Remarks
+[00:19:32] [INFO] Claim_AssignClaim - Clicking 'Create' button...
+[00:19:42] [INFO] Claim_AssignClaim - Create button clicked and spinner disappeared.
+[00:19:42] [INFO] AddClaim - Clicked on 'Create' button.
+[00:19:42] [INFO] Claim_AssignClaim - Clicking 'Confirm' button...
+[00:19:42] [INFO] Claim_AssignClaim - Confirmed successfully.
+[00:19:42] [INFO] AddClaim - Clicked on 'Confirm' button.
+Toast Message: Success Successfully Saved
+[00:19:43] [INFO] AddClaim - Toast message verified: Claim saved successfully.
+[00:19:43] [INFO] Claim_AssignClaim - Clicking 'Back' button...
+[00:19:43] [INFO] Claim_AssignClaim - Navigated back successfully.
+[00:19:43] [INFO] AddClaim - Clicked on 'Back' button.
+[00:19:43] [INFO] AddClaim - ===== Assign Claim Test Completed for Employee: Russel Hamilton =====
+]]></system-out>
+  </testcase>
+  <testcase name="assignClaimTest[ha, Russel Hamilton, Accommodation, United States Dollar, Food testing remarks](2)" classname="Claim.AddClaim" time="16.178">
+    <system-out><![CDATA[[00:19:43] [INFO] AddClaim - ===== Starting Assign Claim Test for Employee: Russel Hamilton =====
+[00:19:43] [INFO] Claim_AssignClaim - Claim_AssignClaim page initialized successfully.
+[00:19:43] [INFO] Claim_AssignClaim - Clicking 'Add Expense' button...
+[00:19:44] [INFO] AddClaim - Clicked on 'Add Expense' button.
+[00:19:44] [INFO] Claim_AssignClaim - Selecting employee with partial text 'ha' and full name 'Russel Hamilton'
+[00:19:46] [INFO] Claim_AssignClaim - Selected employee: Russel Hamilton
+[00:19:46] [INFO] AddClaim - Selected employee: Russel Hamilton (ha)
+[00:19:46] [INFO] Claim_AssignClaim - Selecting allowance: Accommodation
+[00:19:46] [INFO] Claim_AssignClaim - Allowance 'Accommodation' selected.
+[00:19:46] [INFO] AddClaim - Selected allowance: Accommodation
+[00:19:46] [INFO] Claim_AssignClaim - Selecting currency: United States Dollar
+[00:19:48] [INFO] Claim_AssignClaim - Currency 'United States Dollar' selected.
+[00:19:48] [INFO] AddClaim - Selected currency: United States Dollar
+[00:19:48] [INFO] Claim_AssignClaim - Entering remarks: Food testing remarks
+[00:19:48] [INFO] AddClaim - Entered remarks: Food testing remarks
+[00:19:48] [INFO] Claim_AssignClaim - Clicking 'Create' button...
+[00:19:58] [INFO] Claim_AssignClaim - Create button clicked and spinner disappeared.
+[00:19:58] [INFO] AddClaim - Clicked on 'Create' button.
+[00:19:58] [INFO] Claim_AssignClaim - Clicking 'Confirm' button...
+[00:19:59] [INFO] Claim_AssignClaim - Confirmed successfully.
+[00:19:59] [INFO] AddClaim - Clicked on 'Confirm' button.
+Toast Message: Success Successfully Saved
+[00:19:59] [INFO] AddClaim - Toast message verified: Claim saved successfully.
+[00:19:59] [INFO] Claim_AssignClaim - Clicking 'Back' button...
+[00:19:59] [INFO] Claim_AssignClaim - Navigated back successfully.
+[00:19:59] [INFO] AddClaim - Clicked on 'Back' button.
+[00:19:59] [INFO] AddClaim - ===== Assign Claim Test Completed for Employee: Russel Hamilton =====
+]]></system-out>
+  </testcase>
+  <testcase name="assignClaimTest[ha, Russel Hamilton, Medical Reimbursement, Pakistan Rupee, This demo Remarks](3)" classname="Claim.AddClaim" time="16.408">
+    <system-out><![CDATA[[00:19:59] [INFO] AddClaim - ===== Starting Assign Claim Test for Employee: Russel Hamilton =====
+[00:19:59] [INFO] Claim_AssignClaim - Claim_AssignClaim page initialized successfully.
+[00:19:59] [INFO] Claim_AssignClaim - Clicking 'Add Expense' button...
+[00:20:01] [INFO] AddClaim - Clicked on 'Add Expense' button.
+[00:20:01] [INFO] Claim_AssignClaim - Selecting employee with partial text 'ha' and full name 'Russel Hamilton'
+[00:20:02] [INFO] Claim_AssignClaim - Selected employee: Russel Hamilton
+[00:20:02] [INFO] AddClaim - Selected employee: Russel Hamilton (ha)
+[00:20:02] [INFO] Claim_AssignClaim - Selecting allowance: Medical Reimbursement
+[00:20:02] [INFO] Claim_AssignClaim - Allowance 'Medical Reimbursement' selected.
+[00:20:02] [INFO] AddClaim - Selected allowance: Medical Reimbursement
+[00:20:02] [INFO] Claim_AssignClaim - Selecting currency: Pakistan Rupee
+[00:20:04] [INFO] Claim_AssignClaim - Currency 'Pakistan Rupee' selected.
+[00:20:04] [INFO] AddClaim - Selected currency: Pakistan Rupee
+[00:20:04] [INFO] Claim_AssignClaim - Entering remarks: This demo Remarks
+[00:20:05] [INFO] AddClaim - Entered remarks: This demo Remarks
+[00:20:05] [INFO] Claim_AssignClaim - Clicking 'Create' button...
+[00:20:14] [INFO] Claim_AssignClaim - Create button clicked and spinner disappeared.
+[00:20:14] [INFO] AddClaim - Clicked on 'Create' button.
+[00:20:14] [INFO] Claim_AssignClaim - Clicking 'Confirm' button...
+[00:20:14] [INFO] Claim_AssignClaim - Confirmed successfully.
+[00:20:14] [INFO] AddClaim - Clicked on 'Confirm' button.
+Toast Message: Success Successfully Saved
+[00:20:15] [INFO] AddClaim - Toast message verified: Claim saved successfully.
+[00:20:15] [INFO] Claim_AssignClaim - Clicking 'Back' button...
+[00:20:16] [INFO] Claim_AssignClaim - Navigated back successfully.
+[00:20:16] [INFO] AddClaim - Clicked on 'Back' button.
+[00:20:16] [INFO] AddClaim - ===== Assign Claim Test Completed for Employee: Russel Hamilton =====
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="Claim.AddClaim" time="1.725">
+    <system-out><![CDATA[[00:20:16] [INFO] AddClaim - Logging out...
+[00:20:18] [INFO] AddClaim - Logout successful.
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="PIM.Add_Employee" time="2.924">
+    <system-out><![CDATA[[00:20:18] [INFO] AddClaim - Browser closed. ===== AddClaim Test Completed =====
+[00:20:18] [INFO] Add_Employee - ========== Test Setup Started ==========
+[00:20:22] [INFO] Add_Employee - Browser initialized and navigated to URL successfully.
+[00:20:22] [INFO] Add_Employee - ===== Starting Login Test =====
+[00:20:22] [INFO] Add_Employee - Page Title: OrangeHRM
+[00:20:22] [INFO] Add_Employee - Entered Username: Admin
+[00:20:22] [INFO] Add_Employee - Entered Password: *****
+[00:20:22] [INFO] Add_Employee - Clicked on Login Button.
+[00:20:25] [INFO] Add_Employee - Navigated to PIM Module successfully.
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:20:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="addEmployeeTest" classname="PIM.Add_Employee" time="18.836">
+    <system-out><![CDATA[[00:20:25] [INFO] Add_Employee - ===== Starting Add Employee Test =====
+[00:20:25] [INFO] PIM_AddEmployee - PIM_AddEmployee Page Initialized Successfully.
+[00:20:25] [INFO] Add_Employee - Uploading employee image from path: D:\Web Automation Selenium with java - Rahul Shetty udemy paid course\FB_IMG_1715625292457.jpg
+[00:20:25] [INFO] PIM_AddEmployee - Starting Add Employee Process...
+[00:20:26] [INFO] PIM_AddEmployee - Clicked on Add button.
+[00:20:26] [INFO] PIM_AddEmployee - Uploaded file: D:\Web Automation Selenium with java - Rahul Shetty udemy paid course\FB_IMG_1715625292457.jpg
+[00:20:26] [INFO] PIM_AddEmployee - Entered Employee Name: Hammad Ashfaq Ashfaq
+[00:20:26] [INFO] PIM_AddEmployee - Toggled Login Access ON.
+[00:20:27] [INFO] PIM_AddEmployee - Entered login credentials: Username=Hammad160, Password=****
+[00:20:27] [INFO] PIM_AddEmployee - Clicked Save button for basic details.
+[00:20:40] [INFO] PIM_AddEmployee - Loader disappeared — proceeding with personal details.
+[00:20:41] [INFO] PIM_AddEmployee - Entered Employee ID: 1283, License: 2179, Expiry: 2026-05-25
+[00:20:42] [INFO] PIM_AddEmployee - Selected option from dropdown: Algerian
+[00:20:42] [INFO] PIM_AddEmployee - Selected option from dropdown: Single
+[00:20:42] [INFO] PIM_AddEmployee - Selected Nationality: Algerian and Marital Status: Single
+[00:20:42] [INFO] PIM_AddEmployee - Entered DOB: 1995-09-12 and selected Gender: Male
+[00:20:42] [INFO] PIM_AddEmployee - Selected option from dropdown: B+
+[00:20:42] [INFO] PIM_AddEmployee - Selected Blood Group: B+ and entered Custom Field: Single
+[00:20:42] [INFO] PIM_AddEmployee - Clicked Final Submit. ✅ Employee added successfully.
+[00:20:42] [INFO] Add_Employee - Employee details filled and submitted successfully.
+Toast Message: Success Successfully Saved
+[00:20:44] [INFO] Add_Employee - Verified Success Toast Message.
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="PIM.Add_Employee" time="1.332">
+    <system-out><![CDATA[[00:20:44] [INFO] Add_Employee - ===== Starting Logout Test =====
+[00:20:45] [INFO] Add_Employee - User logged out successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="PIM.Delete_AllEmployee" time="3.349">
+    <system-out><![CDATA[[00:20:45] [INFO] Add_Employee - ========== Test Completed. Closing Browser ==========
+[00:20:45] [INFO] Delete_AllEmployee - ===== Starting Delete_AllEmployee Test Suite =====
+[00:20:49] [INFO] Delete_AllEmployee - Browser launched and navigated to application URL.
+[00:20:49] [INFO] Delete_AllEmployee - ===== Starting Login Test =====
+[00:20:49] [INFO] Delete_AllEmployee - Page title: OrangeHRM
+[00:20:49] [INFO] Delete_AllEmployee - Entered username: Admin
+[00:20:49] [INFO] Delete_AllEmployee - Entered password: admin123
+[00:20:49] [INFO] Delete_AllEmployee - Clicked on Login button.
+[00:20:52] [INFO] Delete_AllEmployee - Navigated to PIM module.
+[00:20:52] [INFO] Delete_AllEmployee - ✅ Login Test Passed.
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:20:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="deleteAllEmployeesTest" classname="PIM.Delete_AllEmployee" time="2.352">
+    <system-out><![CDATA[[00:20:52] [INFO] Delete_AllEmployee - ===== Starting Delete All Employees Test =====
+[00:20:52] [INFO] PIM_DeleteAllEmployee - PIM_DeleteAllEmployee page initialized successfully.
+[00:20:52] [INFO] PIM_DeleteAllEmployee - Checking if the main checkbox is already selected.
+[00:20:53] [INFO] PIM_DeleteAllEmployee - Main checkbox not selected. Clicking to select it.
+[00:20:53] [INFO] PIM_DeleteAllEmployee - Main checkbox selected successfully.
+[00:20:53] [INFO] Delete_AllEmployee - Selected all employee checkboxes.
+[00:20:53] [INFO] PIM_DeleteAllEmployee - Attempting to delete all selected employees.
+[00:20:53] [INFO] PIM_DeleteAllEmployee - Clicked on Delete button.
+[00:20:54] [INFO] PIM_DeleteAllEmployee - Clicked on Confirm Delete button.
+[00:20:54] [INFO] PIM_DeleteAllEmployee - ✅ All selected employees deleted successfully.
+[00:20:54] [INFO] Delete_AllEmployee - Clicked Delete and confirmed deletion.
+Toast Message: Success Successfully Deleted
+[00:20:54] [INFO] Delete_AllEmployee - ✅ Toast message verified: Success Successfully Deleted
+[00:20:54] [INFO] Delete_AllEmployee - ✅ Delete All Employees Test Passed.
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="PIM.Delete_AllEmployee" time="1.353">
+    <system-out><![CDATA[[00:20:54] [INFO] Delete_AllEmployee - ===== Starting Logout Test =====
+[00:20:56] [INFO] Delete_AllEmployee - ✅ Logout successful.
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="PIM.Delete_Employee" time="3.356">
+    <system-out><![CDATA[[00:20:56] [INFO] Delete_AllEmployee - Closing browser and cleaning up...
+[00:20:56] [INFO] Delete_AllEmployee - ===== Delete_AllEmployee Test Suite Completed =====
+[00:20:56] [INFO] Delete_Employee - ===== Test Setup Started =====
+[00:20:59] [INFO] Delete_Employee - Browser initialized and OrangeHRM URL opened successfully.
+[00:20:59] [INFO] Delete_Employee - LoginPage object created.
+[00:20:59] [INFO] Delete_Employee - ===== Starting Login Test =====
+[00:20:59] [INFO] Delete_Employee - Page title: OrangeHRM
+[00:21:00] [INFO] Delete_Employee - Entered username: Admin
+[00:21:00] [INFO] Delete_Employee - Entered password.
+[00:21:00] [INFO] Delete_Employee - Clicked on Login button.
+[00:21:03] [INFO] Delete_Employee - Navigated to PIM module.
+[00:21:03] [INFO] Delete_Employee - ===== Login Test Completed Successfully =====
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:20:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="deleteEmployeeTest" classname="PIM.Delete_Employee" time="2.084">
+    <system-out><![CDATA[[00:21:03] [INFO] Delete_Employee - ===== Starting Delete Employee Test =====
+[00:21:03] [INFO] PIM_DeleteEmployee - PIM_DeleteEmployee page initialized successfully.
+[00:21:03] [INFO] PIM_DeleteEmployee - Attempting to delete the first employee record.
+[00:21:04] [INFO] PIM_DeleteEmployee - Clicked on delete icon for the first employee.
+[00:21:04] [INFO] PIM_DeleteEmployee - Confirmed employee deletion by clicking the delete confirmation button.
+[00:21:04] [INFO] PIM_DeleteEmployee - ✅ Employee record deleted successfully.
+[00:21:04] [INFO] Delete_Employee - Triggered employee deletion successfully.
+Toast Message: Success Successfully Deleted
+[00:21:05] [INFO] Delete_Employee - Verified success toast message after deletion.
+[00:21:05] [INFO] Delete_Employee - ===== Delete Employee Test Completed Successfully =====
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="PIM.Delete_Employee" time="1.371">
+    <system-out><![CDATA[[00:21:05] [INFO] Delete_Employee - ===== Starting Logout Test =====
+[00:21:06] [INFO] Delete_Employee - User logged out successfully.
+[00:21:06] [INFO] Delete_Employee - ===== Logout Test Completed Successfully =====
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="PIM.Edit_Employee" time="2.949">
+    <system-out><![CDATA[[00:21:06] [INFO] Delete_Employee - Browser closed and WebDriver terminated successfully.
+[00:21:06] [INFO] Delete_Employee - ===== Test Suite Execution Completed =====
+[00:21:06] [INFO] Edit_Employee - ===== Test Setup Started =====
+[00:21:10] [INFO] Edit_Employee - Browser launched and URL opened successfully.
+[00:21:10] [INFO] Edit_Employee - LoginPage object created.
+[00:21:10] [INFO] Edit_Employee - ===== Starting Login Test =====
+[00:21:10] [INFO] Edit_Employee - Page title: OrangeHRM
+[00:21:10] [INFO] Edit_Employee - Entered username: Admin
+[00:21:10] [INFO] Edit_Employee - Entered password.
+[00:21:10] [INFO] Edit_Employee - Clicked on Login button.
+[00:21:12] [INFO] Edit_Employee - Navigated to PIM module.
+[00:21:12] [INFO] Edit_Employee - ===== Login Test Completed Successfully =====
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:21:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="editEmployeeTest" classname="PIM.Edit_Employee" time="25.322">
+    <system-out><![CDATA[[00:21:12] [INFO] Edit_Employee - ===== Starting Edit Employee Test =====
+[00:21:12] [INFO] PIM_EditEmployee - PIM_EditEmployee page initialized successfully.
+[00:21:12] [INFO] Edit_Employee - Employee image path: D:\Web Automation Selenium with java - Rahul Shetty udemy paid course\FB_IMG_1715625292457.jpg
+[00:21:12] [INFO] PIM_EditEmployee - Starting to edit employee details...
+[00:21:14] [INFO] PIM_EditEmployee - Clicked on pencil icon.
+[00:21:15] [INFO] PIM_EditEmployee - Clicked on image icon to upload photo.
+[00:21:15] [INFO] PIM_EditEmployee - Uploaded employee image from path: D:\Web Automation Selenium with java - Rahul Shetty udemy paid course\FB_IMG_1715625292457.jpg
+[00:21:24] [INFO] PIM_EditEmployee - Image upload successful.
+[00:21:34] [INFO] PIM_EditEmployee - Opened Personal Details tab.
+[00:21:35] [INFO] PIM_EditEmployee - Entered employee name and ID details.
+[00:21:35] [INFO] PIM_EditEmployee - Entered other ID, license number, and expiry date.
+[00:21:36] [INFO] PIM_EditEmployee - Selected nationality: Pakistani and marital status: Single
+[00:21:37] [INFO] PIM_EditEmployee - Set date of birth: 1995-12-09 and selected gender as Male.
+[00:21:37] [INFO] PIM_EditEmployee - Selected blood group: B+ and entered custom field text.
+[00:21:37] [INFO] PIM_EditEmployee - Clicked Save button. Employee details update completed successfully.
+[00:21:37] [INFO] Edit_Employee - Employee details edited successfully.
+Toast Message: Success Successfully Saved
+[00:21:38] [INFO] Edit_Employee - Verified success toast message.
+[00:21:38] [INFO] Edit_Employee - ===== Edit Employee Test Completed Successfully =====
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="PIM.Edit_Employee" time="1.482">
+    <system-out><![CDATA[[00:21:38] [INFO] Edit_Employee - ===== Starting Logout Test =====
+[00:21:39] [INFO] Edit_Employee - User logged out successfully.
+[00:21:39] [INFO] Edit_Employee - ===== Logout Test Completed Successfully =====
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="PIM.Search_Employee" time="2.969">
+    <system-out><![CDATA[[00:21:40] [INFO] Edit_Employee - Browser closed and driver terminated.
+[00:21:40] [INFO] Edit_Employee - ===== Test Suite Execution Completed =====
+[00:21:40] [INFO] Search_Employee - ===== Test Setup Started =====
+[00:21:43] [INFO] Search_Employee - Browser initialized and URL opened successfully.
+[00:21:43] [INFO] Search_Employee - LoginPage object created.
+[00:21:43] [INFO] Search_Employee - ===== Starting Login Test =====
+[00:21:43] [INFO] Search_Employee - Page title: OrangeHRM
+[00:21:43] [INFO] Search_Employee - Entered username: Admin
+[00:21:43] [INFO] Search_Employee - Entered password.
+[00:21:43] [INFO] Search_Employee - Clicked on Login button.
+[00:21:46] [INFO] Search_Employee - Navigated to PIM section.
+[00:21:46] [INFO] Search_Employee - ===== Login Test Completed Successfully =====
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:21:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="searchEmployeeTest" classname="PIM.Search_Employee" time="2.307">
+    <failure message="Record text does not match! expected [(1) Record Found] but found [No Records Found]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Record text does not match! expected [(1) Record Found] but found [No Records Found]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at orangehrm.PageObject.PIM_SearchEmployee.getRecordText(PIM_SearchEmployee.java:106)
+	at PIM.Search_Employee.searchEmployeeTest(Search_Employee.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[00:21:46] [INFO] Search_Employee - ===== Starting Search Employee Test =====
+[00:21:46] [INFO] PIM_SearchEmployee - PIM_SearchEmployee page initialized successfully.
+[00:21:46] [INFO] PIM_SearchEmployee - Entering partial employee name: ha
+[00:21:46] [INFO] PIM_SearchEmployee - Partial name 'ha' entered successfully.
+[00:21:46] [INFO] Search_Employee - Entered partial employee name: 'ha'
+[00:21:46] [INFO] PIM_SearchEmployee - Selecting employee name from suggestions: Russel Hamilton
+[00:21:48] [WARN] PIM_SearchEmployee - ⚠️ Employee name 'Russel Hamilton' not found in suggestions.
+[00:21:48] [INFO] Search_Employee - Selected employee: 'Russel Hamilton' from suggestions.
+[00:21:48] [INFO] PIM_SearchEmployee - Entering employee ID: 0034
+[00:21:48] [INFO] PIM_SearchEmployee - Employee ID '0034' entered successfully.
+[00:21:48] [INFO] Search_Employee - Entered employee ID: 0034
+[00:21:48] [INFO] PIM_SearchEmployee - Clicking on the Search button.
+[00:21:48] [INFO] PIM_SearchEmployee - Clicked on Search button successfully.
+[00:21:48] [INFO] Search_Employee - Clicked on Search button.
+[00:21:48] [INFO] PIM_SearchEmployee - Verifying search result text. Expected: (1) Record Found
+[00:21:48] [INFO] PIM_SearchEmployee - Record Text displayed: No Records Found
+[00:21:48] [ERROR] PIM_SearchEmployee - ❌ Record text mismatch: Record text does not match! expected [(1) Record Found] but found [No Records Found]
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="PIM.Search_Employee" time="0.0">
+    <skipped message="Method PIM.Search_Employee.logoutTest() on instance PIM.Search_Employee@35beb15e depends on not successfully finished methods &#10;[PIM.Search_Employee.searchEmployeeTest() on instance PIM.Search_Employee@35beb15e]"/>
+  </testcase>
+  <testcase name="loginTest" classname="Recruitment.AddApplicationwithShortlist" time="3.068">
+    <system-out><![CDATA[[00:21:48] [INFO] Search_Employee - Browser closed and driver quit successfully.
+[00:21:48] [INFO] Search_Employee - ===== Test Suite Execution Completed =====
+[00:21:49] [INFO] AddApplicationwithShortlist - ===== Test Setup Started =====
+[00:21:52] [INFO] AddApplicationwithShortlist - Browser launched and OrangeHRM URL opened successfully.
+[00:21:52] [INFO] AddApplicationwithShortlist - ===== Starting Login Test =====
+[00:21:52] [INFO] AddApplicationwithShortlist - Page Title: OrangeHRM
+[00:21:52] [INFO] AddApplicationwithShortlist - Successfully logged into OrangeHRM with Admin credentials.
+[00:21:55] [INFO] AddApplicationwithShortlist - Navigated to Recruitment section.
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:21:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="addApplicantWithShortlistTest" classname="Recruitment.AddApplicationwithShortlist" time="4.018">
+    <system-out><![CDATA[[00:21:55] [INFO] AddApplicationwithShortlist - ===== Starting Add Applicant with Shortlist Test =====
+[00:21:55] [INFO] Recruitment_Addapplicantwithshortlisted - Recruitment_Addapplicantwithshortlisted page initialized.
+[00:21:56] [INFO] Recruitment_Addapplicantwithshortlisted - Clicked on 'Add Employee' button.
+[00:21:56] [INFO] AddApplicationwithShortlist - Clicked on 'Add Candidate' button.
+[00:21:56] [INFO] Recruitment_Addapplicantwithshortlisted - Entered first name: Hammad
+[00:21:56] [INFO] Recruitment_Addapplicantwithshortlisted - Entered middle name: Ashfaq
+[00:21:56] [INFO] Recruitment_Addapplicantwithshortlisted - Entered last name: Ahmed
+[00:21:57] [WARN] Recruitment_Addapplicantwithshortlisted - Job title 'Senior QA Lead' not found in dropdown options.
+[00:21:57] [INFO] Recruitment_Addapplicantwithshortlisted - Entered email: Hammadashfaq341@gmail.com
+[00:21:57] [INFO] Recruitment_Addapplicantwithshortlisted - Entered phone number: 03214918172
+[00:21:57] [INFO] Recruitment_Addapplicantwithshortlisted - Uploaded file: D:/Web Automation Selenium with java - Rahul Shetty udemy paid course/Hammad Ashfaq SQA.pdf
+[00:21:57] [INFO] AddApplicationwithShortlist - Uploaded resume file from path: D:/Web Automation Selenium with java - Rahul Shetty udemy paid course/Hammad Ashfaq SQA.pdf
+[00:21:57] [INFO] Recruitment_Addapplicantwithshortlisted - Entered keywords: 345
+[00:21:57] [INFO] Recruitment_Addapplicantwithshortlisted - Entered date: 2025-26-08
+[00:21:57] [INFO] Recruitment_Addapplicantwithshortlisted - Entered notes: This is test notes
+[00:21:57] [INFO] Recruitment_Addapplicantwithshortlisted - Clicked on consent checkbox.
+[00:21:57] [INFO] AddApplicationwithShortlist - Filled all candidate details and checked consent box.
+[00:21:57] [INFO] Recruitment_Addapplicantwithshortlisted - Clicked on 'Save' button.
+[00:21:57] [INFO] AddApplicationwithShortlist - Clicked Save to submit the candidate application.
+Toast Message: Success Successfully Saved
+[00:21:59] [INFO] AddApplicationwithShortlist - ✅ Candidate added and shortlisted successfully. Verified success toast message.
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="Recruitment.AddApplicationwithShortlist" time="1.364">
+    <system-out><![CDATA[[00:21:59] [INFO] AddApplicationwithShortlist - ===== Starting Logout Test =====
+[00:22:00] [INFO] AddApplicationwithShortlist - User logged out successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="Recruitment.DeleteRecruitment" time="2.952">
+    <system-out><![CDATA[[00:22:00] [INFO] AddApplicationwithShortlist - ===== Test Execution Completed — Closing Browser =====
+[00:22:01] [INFO] DeleteRecruitment - ===== Test Setup Started =====
+[00:22:04] [INFO] DeleteRecruitment - Browser launched and URL opened successfully.
+[00:22:04] [INFO] DeleteRecruitment - ===== Starting Login Test =====
+[00:22:04] [INFO] DeleteRecruitment - Page Title: OrangeHRM
+[00:22:04] [INFO] DeleteRecruitment - Entered Username: Admin
+[00:22:04] [INFO] DeleteRecruitment - Entered Password: admin123
+[00:22:04] [INFO] DeleteRecruitment - Clicked Login button successfully.
+[00:22:07] [INFO] DeleteRecruitment - Navigated to Recruitment section.
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:22:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="deleteApplicantTest" classname="Recruitment.DeleteRecruitment" time="1.614">
+    <system-out><![CDATA[[00:22:07] [INFO] DeleteRecruitment - ===== Starting Delete Applicant Test =====
+[00:22:07] [INFO] Recruitment_Delete - Recruitment_Delete page initialized successfully.
+[00:22:07] [INFO] Recruitment_Delete - Selecting the second applicant checkbox for deletion.
+[00:22:08] [INFO] DeleteRecruitment - Selected the second applicant checkbox.
+[00:22:08] [INFO] Recruitment_Delete - Clicking on the Delete button.
+[00:22:08] [INFO] DeleteRecruitment - Clicked the delete button.
+[00:22:08] [INFO] Recruitment_Delete - Confirming deletion of selected applicant.
+[00:22:08] [INFO] Recruitment_Delete - ✅ Applicant deletion confirmed successfully.
+[00:22:08] [INFO] DeleteRecruitment - Confirmed the deletion successfully.
+Toast Message: Success Successfully Deleted
+[00:22:08] [INFO] DeleteRecruitment - ✅ Verified success toast message after deletion.
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="Recruitment.DeleteRecruitment" time="1.321">
+    <system-out><![CDATA[[00:22:08] [INFO] DeleteRecruitment - ===== Logging Out =====
+[00:22:10] [INFO] DeleteRecruitment - User logged out successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="Recruitment.EditRecruitment" time="3.248">
+    <system-out><![CDATA[[00:22:10] [INFO] DeleteRecruitment - ===== Test Execution Completed - Closing Browser =====
+[00:22:10] [INFO] EditRecruitment - ===== Test Setup Started =====
+[00:22:13] [INFO] EditRecruitment - Browser initialized, maximized, and URL opened successfully.
+[00:22:13] [INFO] EditRecruitment - ===== Starting Login Test =====
+[00:22:13] [INFO] EditRecruitment - Page Title: OrangeHRM
+[00:22:14] [INFO] EditRecruitment - Entered username: Admin
+[00:22:14] [INFO] EditRecruitment - Entered password: admin123
+[00:22:15] [INFO] EditRecruitment - Clicked on Login button.
+[00:22:17] [INFO] EditRecruitment - Navigated to Recruitment menu.
+]]></system-out>
+    <system-err><![CDATA[Oct 18, 2025 12:22:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="editApplicantTest" classname="Recruitment.EditRecruitment" time="5.198">
+    <system-out><![CDATA[[00:22:17] [INFO] EditRecruitment - ===== Starting Edit Applicant Test =====
+[00:22:17] [INFO] Recruitment_Edit - Recruitment_Edit page initialized successfully.
+[00:22:17] [INFO] Recruitment_Edit - Clicking on the Eye icon to open candidate details...
+[00:22:18] [INFO] EditRecruitment - Opened applicant details using Eye icon.
+[00:22:18] [INFO] Recruitment_Edit - Toggling the active/inactive switch...
+[00:22:19] [INFO] EditRecruitment - Toggled the active/inactive switch.
+[00:22:19] [INFO] Recruitment_Edit - Editing First Name: Haseeb
+[00:22:19] [INFO] EditRecruitment - Updated first name to: Haseeb
+[00:22:19] [INFO] Recruitment_Edit - Editing Middle Name: Maria
+[00:22:19] [INFO] EditRecruitment - Updated middle name to: Maria
+[00:22:19] [INFO] Recruitment_Edit - Editing Last Name: Jameel
+[00:22:19] [INFO] EditRecruitment - Updated last name to: Jameel
+[00:22:19] [INFO] Recruitment_Edit - Selecting Job Title: Software Engineer
+[00:22:19] [INFO] Recruitment_Edit - Job title 'Software Engineer' selected successfully.
+[00:22:19] [INFO] EditRecruitment - Selected job title: Software Engineer
+[00:22:19] [INFO] Recruitment_Edit - Updating Email: Haseeb99@gmail.com
+[00:22:19] [INFO] EditRecruitment - Updated email: Haseeb99@gmail.com
+[00:22:19] [INFO] Recruitment_Edit - Updating Phone Number: 03324567894
+[00:22:20] [INFO] EditRecruitment - Updated phone number: 03324567894
+[00:22:20] [INFO] Recruitment_Edit - Updating Keywords: 389
+[00:22:20] [INFO] EditRecruitment - Entered keywords: 389
+[00:22:20] [INFO] Recruitment_Edit - Editing Date: 2025-18-08
+[00:22:20] [INFO] EditRecruitment - Entered date: 2025-18-08
+[00:22:20] [INFO] Recruitment_Edit - Updating Notes: This is testing notes
+[00:22:20] [INFO] EditRecruitment - Entered notes.
+[00:22:20] [INFO] Recruitment_Edit - Checking the consent checkbox...
+[00:22:20] [INFO] EditRecruitment - Checked consent checkbox.
+[00:22:20] [INFO] Recruitment_Edit - Clicking the Save button...
+[00:22:20] [INFO] EditRecruitment - Clicked Save button.
+[00:22:20] [INFO] Recruitment_Edit - Confirming save action in popup...
+[00:22:21] [INFO] Recruitment_Edit - ✅ Save confirmed successfully.
+[00:22:21] [INFO] EditRecruitment - Confirmed save action in popup.
+Toast Message: Success Successfully Updated
+[00:22:22] [INFO] EditRecruitment - ✅ Verified toast message: Success Successfully Updated
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="Recruitment.EditRecruitment" time="1.486">
+    <system-out><![CDATA[[00:22:22] [INFO] EditRecruitment - ===== Starting Logout Test =====
+[00:22:23] [INFO] EditRecruitment - Logged out successfully.
+]]></system-out>
+  </testcase>
+</testsuite>

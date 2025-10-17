@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="orangehrm.utility.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Admin Module Tests(failed)">
+    <classes>
+      <class name="Admin.Search_User">
+        <methods>
+          <include name="loginTest"/>
+          <include name="searchUserTest"/>
+          <include name="TearDown"/>
+          <include name="setUp"/>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- Admin.Search_User -->
+    </classes>
+  </test> <!-- Admin Module Tests(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Test Suite] -->

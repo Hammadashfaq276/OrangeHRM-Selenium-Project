@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="50" passed="44" failed="3" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-18T00:17:18 PKT" name="OrangeHRM Test Suite" finished-at="2025-10-18T00:22:23 PKT" duration-ms="305329">
+    <groups>
+    </groups>
+    <test started-at="2025-10-18T00:17:18 PKT" name="Admin Module Tests" finished-at="2025-10-18T00:18:45 PKT" duration-ms="87251">
+      <class name="Admin.Edit_User">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Admin.Edit_User@6d0b5baf]" started-at="2025-10-18T00:18:14 PKT" name="setUp" finished-at="2025-10-18T00:18:17 PKT" duration-ms="3568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:Admin.Edit_User@6d0b5baf]" started-at="2025-10-18T00:18:17 PKT" name="loginTest" finished-at="2025-10-18T00:18:20 PKT" duration-ms="3313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="editUserTest()[pri:2, instance:Admin.Edit_User@6d0b5baf]" started-at="2025-10-18T00:18:20 PKT" name="editUserTest" finished-at="2025-10-18T00:18:35 PKT" depends-on-methods="Admin.Edit_User.loginTest" duration-ms="14174" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (2b3d0a4143c1434196dfa6b7a410fbcd)] -> xpath: //div[contains(@class,'oxd-toast')]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\shykh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60894/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b3d0a4143c1434196dfa6b7a410fbcd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (2b3d0a4143c1434196dfa6b7a410fbcd)] -> xpath: //div[contains(@class,'oxd-toast')]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\shykh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60894/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b3d0a4143c1434196dfa6b7a410fbcd
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at orangehrm.PageObject.LoginPage.getToastMessage(LoginPage.java:97)
+at orangehrm.PageObject.LoginPage.verifyToastMessage(LoginPage.java:104)
+at Admin.Edit_User.editUserTest(Edit_User.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUserTest -->
+        <test-method signature="logoutTest()[pri:3, instance:Admin.Edit_User@6d0b5baf]" started-at="2025-10-18T00:18:35 PKT" name="logoutTest" finished-at="2025-10-18T00:18:35 PKT" depends-on-methods="Admin.Edit_User.editUserTest" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Admin.Edit_User.logoutTest() on instance Admin.Edit_User@6d0b5baf depends on not successfully finished methods 
+[Admin.Edit_User.editUserTest() on instance Admin.Edit_User@6d0b5baf]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Admin.Edit_User.logoutTest() on instance Admin.Edit_User@6d0b5baf depends on not successfully finished methods 
+[Admin.Edit_User.editUserTest() on instance Admin.Edit_User@6d0b5baf]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Admin.Edit_User@6d0b5baf]" started-at="2025-10-18T00:18:35 PKT" name="TearDown" finished-at="2025-10-18T00:18:35 PKT" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Admin.Edit_User -->
+      <class name="Admin.Search_User">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Admin.Search_User@631e06ab]" started-at="2025-10-18T00:18:35 PKT" name="setUp" finished-at="2025-10-18T00:18:38 PKT" duration-ms="3396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:Admin.Search_User@631e06ab]" started-at="2025-10-18T00:18:38 PKT" name="loginTest" finished-at="2025-10-18T00:18:42 PKT" duration-ms="3682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="searchUserTest()[pri:2, instance:Admin.Search_User@631e06ab]" started-at="2025-10-18T00:18:42 PKT" name="searchUserTest" finished-at="2025-10-18T00:18:45 PKT" depends-on-methods="Admin.Search_User.loginTest" duration-ms="2914" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Record text did not match! expected [(1) Record Found] but found [No Records Found]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Record text did not match! expected [(1) Record Found] but found [No Records Found]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at orangehrm.PageObject.Admin_SearchUser.getRecordText(Admin_SearchUser.java:110)
+at Admin.Search_User.searchUserTest(Search_User.java:73)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserTest -->
+        <test-method signature="logoutTest()[pri:3, instance:Admin.Search_User@631e06ab]" started-at="2025-10-18T00:18:45 PKT" name="logoutTest" finished-at="2025-10-18T00:18:45 PKT" depends-on-methods="Admin.Search_User.searchUserTest" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Admin.Search_User.logoutTest() on instance Admin.Search_User@631e06ab depends on not successfully finished methods 
+[Admin.Search_User.searchUserTest() on instance Admin.Search_User@631e06ab]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Admin.Search_User.logoutTest() on instance Admin.Search_User@631e06ab depends on not successfully finished methods 
+[Admin.Search_User.searchUserTest() on instance Admin.Search_User@631e06ab]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Admin.Search_User@631e06ab]" started-at="2025-10-18T00:18:45 PKT" name="TearDown" finished-at="2025-10-18T00:18:45 PKT" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Admin.Search_User -->
+      <class name="Admin.Delete_User">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Admin.Delete_User@5049d8b2]" started-at="2025-10-18T00:18:03 PKT" name="setUp" finished-at="2025-10-18T00:18:07 PKT" duration-ms="3506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:Admin.Delete_User@5049d8b2]" started-at="2025-10-18T00:18:07 PKT" name="loginTest" finished-at="2025-10-18T00:18:10 PKT" duration-ms="3125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="deleteUserTest()[pri:2, instance:Admin.Delete_User@5049d8b2]" started-at="2025-10-18T00:18:10 PKT" name="deleteUserTest" finished-at="2025-10-18T00:18:12 PKT" depends-on-methods="Admin.Delete_User.loginTest" duration-ms="2103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method signature="logoutTest()[pri:3, instance:Admin.Delete_User@5049d8b2]" started-at="2025-10-18T00:18:12 PKT" name="logoutTest" finished-at="2025-10-18T00:18:13 PKT" depends-on-methods="Admin.Delete_User.deleteUserTest" duration-ms="1458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Admin.Delete_User@5049d8b2]" started-at="2025-10-18T00:18:13 PKT" name="TearDown" finished-at="2025-10-18T00:18:14 PKT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Admin.Delete_User -->
+      <class name="Admin.Create_User">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Admin.Create_User@6722db6e]" started-at="2025-10-18T00:17:18 PKT" name="setUp" finished-at="2025-10-18T00:17:22 PKT" duration-ms="4261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:Admin.Create_User@6722db6e]" started-at="2025-10-18T00:17:22 PKT" name="loginTest" finished-at="2025-10-18T00:17:40 PKT" duration-ms="17787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="createUserTest()[pri:2, instance:Admin.Create_User@6722db6e]" started-at="2025-10-18T00:17:40 PKT" name="createUserTest" finished-at="2025-10-18T00:18:01 PKT" depends-on-methods="Admin.Create_User.loginTest" duration-ms="21159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="logoutTest()[pri:3, instance:Admin.Create_User@6722db6e]" started-at="2025-10-18T00:18:01 PKT" name="logoutTest" finished-at="2025-10-18T00:18:03 PKT" depends-on-methods="Admin.Create_User.createUserTest" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Admin.Create_User@6722db6e]" started-at="2025-10-18T00:18:03 PKT" name="TearDown" finished-at="2025-10-18T00:18:03 PKT" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Admin.Create_User -->
+    </test> <!-- Admin Module Tests -->
+    <test started-at="2025-10-18T00:18:46 PKT" name="Buzz Module Tests" finished-at="2025-10-18T00:19:21 PKT" duration-ms="34701">
+      <class name="Buzz.AddPost">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Buzz.AddPost@77192705]" started-at="2025-10-18T00:18:46 PKT" name="setUp" finished-at="2025-10-18T00:18:49 PKT" duration-ms="3411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:Buzz.AddPost@77192705]" started-at="2025-10-18T00:18:49 PKT" name="loginTest" finished-at="2025-10-18T00:18:52 PKT" duration-ms="2953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="addLikeCommentTest()[pri:2, instance:Buzz.AddPost@77192705]" started-at="2025-10-18T00:18:52 PKT" name="addLikeCommentTest" finished-at="2025-10-18T00:18:56 PKT" depends-on-methods="Buzz.AddPost.loginTest" duration-ms="3115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLikeCommentTest -->
+        <test-method signature="logoutTest()[pri:3, instance:Buzz.AddPost@77192705]" started-at="2025-10-18T00:18:56 PKT" name="logoutTest" finished-at="2025-10-18T00:18:57 PKT" depends-on-methods="Buzz.AddPost.addLikeCommentTest" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Buzz.AddPost@77192705]" started-at="2025-10-18T00:18:57 PKT" name="TearDown" finished-at="2025-10-18T00:18:57 PKT" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Buzz.AddPost -->
+      <class name="Buzz.EditPost">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Buzz.EditPost@7e809b79]" started-at="2025-10-18T00:19:09 PKT" name="setUp" finished-at="2025-10-18T00:19:13 PKT" duration-ms="3437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:Buzz.EditPost@7e809b79]" started-at="2025-10-18T00:19:13 PKT" name="loginTest" finished-at="2025-10-18T00:19:15 PKT" duration-ms="2575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="editPostTest()[pri:2, instance:Buzz.EditPost@7e809b79]" started-at="2025-10-18T00:19:15 PKT" name="editPostTest" finished-at="2025-10-18T00:19:19 PKT" depends-on-methods="Buzz.EditPost.loginTest" duration-ms="3764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editPostTest -->
+        <test-method signature="logoutTest()[pri:3, instance:Buzz.EditPost@7e809b79]" started-at="2025-10-18T00:19:19 PKT" name="logoutTest" finished-at="2025-10-18T00:19:20 PKT" depends-on-methods="Buzz.EditPost.editPostTest" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Buzz.EditPost@7e809b79]" started-at="2025-10-18T00:19:20 PKT" name="TearDown" finished-at="2025-10-18T00:19:21 PKT" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Buzz.EditPost -->
+      <class name="Buzz.DeletePost">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Buzz.DeletePost@226642a5]" started-at="2025-10-18T00:18:57 PKT" name="setUp" finished-at="2025-10-18T00:19:01 PKT" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:Buzz.DeletePost@226642a5]" started-at="2025-10-18T00:19:01 PKT" name="loginTest" finished-at="2025-10-18T00:19:04 PKT" duration-ms="3364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="deletePostTest()[pri:2, instance:Buzz.DeletePost@226642a5]" started-at="2025-10-18T00:19:04 PKT" name="deletePostTest" finished-at="2025-10-18T00:19:07 PKT" depends-on-methods="Buzz.DeletePost.loginTest" duration-ms="3196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePostTest -->
+        <test-method signature="logoutTest()[pri:3, instance:Buzz.DeletePost@226642a5]" started-at="2025-10-18T00:19:07 PKT" name="logoutTest" finished-at="2025-10-18T00:19:09 PKT" depends-on-methods="Buzz.DeletePost.deletePostTest" duration-ms="1622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Buzz.DeletePost@226642a5]" started-at="2025-10-18T00:19:09 PKT" name="TearDown" finished-at="2025-10-18T00:19:09 PKT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Buzz.DeletePost -->
+    </test> <!-- Buzz Module Tests -->
+    <test started-at="2025-10-18T00:19:21 PKT" name="Claim Module Tests" finished-at="2025-10-18T00:20:18 PKT" duration-ms="57116">
+      <class name="Claim.AddClaim">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Claim.AddClaim@52500920]" started-at="2025-10-18T00:19:21 PKT" name="setUp" finished-at="2025-10-18T00:19:24 PKT" duration-ms="3342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:Claim.AddClaim@52500920]" started-at="2025-10-18T00:19:24 PKT" name="loginTest" finished-at="2025-10-18T00:19:27 PKT" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="assignClaimTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Claim.AddClaim@52500920]" started-at="2025-10-18T00:19:27 PKT" name="assignClaimTest" data-provider="claimDataFromExcel" finished-at="2025-10-18T00:19:43 PKT" depends-on-methods="Claim.AddClaim.loginTest" duration-ms="16045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Russel Hamilton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Travel Allowance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan Rupee]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This is Testing Remarks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignClaimTest -->
+        <test-method signature="assignClaimTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Claim.AddClaim@52500920]" started-at="2025-10-18T00:19:43 PKT" name="assignClaimTest" data-provider="claimDataFromExcel" finished-at="2025-10-18T00:19:59 PKT" depends-on-methods="Claim.AddClaim.loginTest" duration-ms="16180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Russel Hamilton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Accommodation]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[United States Dollar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Food testing remarks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignClaimTest -->
+        <test-method signature="assignClaimTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:Claim.AddClaim@52500920]" started-at="2025-10-18T00:19:59 PKT" name="assignClaimTest" data-provider="claimDataFromExcel" finished-at="2025-10-18T00:20:16 PKT" depends-on-methods="Claim.AddClaim.loginTest" duration-ms="16407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Russel Hamilton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Medical Reimbursement]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan Rupee]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This demo Remarks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignClaimTest -->
+        <test-method signature="logoutTest()[pri:3, instance:Claim.AddClaim@52500920]" started-at="2025-10-18T00:20:16 PKT" name="logoutTest" finished-at="2025-10-18T00:20:18 PKT" depends-on-methods="Claim.AddClaim.assignClaimTest" duration-ms="1726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Claim.AddClaim@52500920]" started-at="2025-10-18T00:20:18 PKT" name="TearDown" finished-at="2025-10-18T00:20:18 PKT" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Claim.AddClaim -->
+    </test> <!-- Claim Module Tests -->
+    <test started-at="2025-10-18T00:20:18 PKT" name="PIM Module Tests" finished-at="2025-10-18T00:21:48 PKT" duration-ms="90483">
+      <class name="PIM.Delete_Employee">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PIM.Delete_Employee@70dd7e15]" started-at="2025-10-18T00:20:56 PKT" name="setUp" finished-at="2025-10-18T00:20:59 PKT" duration-ms="3382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:PIM.Delete_Employee@70dd7e15]" started-at="2025-10-18T00:20:59 PKT" name="loginTest" finished-at="2025-10-18T00:21:03 PKT" duration-ms="3356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="deleteEmployeeTest()[pri:2, instance:PIM.Delete_Employee@70dd7e15]" started-at="2025-10-18T00:21:03 PKT" name="deleteEmployeeTest" finished-at="2025-10-18T00:21:05 PKT" depends-on-methods="PIM.Delete_Employee.loginTest" duration-ms="2084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployeeTest -->
+        <test-method signature="logoutTest()[pri:3, instance:PIM.Delete_Employee@70dd7e15]" started-at="2025-10-18T00:21:05 PKT" name="logoutTest" finished-at="2025-10-18T00:21:06 PKT" depends-on-methods="PIM.Delete_Employee.deleteEmployeeTest" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:PIM.Delete_Employee@70dd7e15]" started-at="2025-10-18T00:21:06 PKT" name="cleanUp" finished-at="2025-10-18T00:21:06 PKT" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- PIM.Delete_Employee -->
+      <class name="PIM.Edit_Employee">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PIM.Edit_Employee@4a9f80d3]" started-at="2025-10-18T00:21:06 PKT" name="setUp" finished-at="2025-10-18T00:21:10 PKT" duration-ms="3181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:PIM.Edit_Employee@4a9f80d3]" started-at="2025-10-18T00:21:10 PKT" name="loginTest" finished-at="2025-10-18T00:21:12 PKT" duration-ms="2949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="editEmployeeTest()[pri:2, instance:PIM.Edit_Employee@4a9f80d3]" started-at="2025-10-18T00:21:12 PKT" name="editEmployeeTest" finished-at="2025-10-18T00:21:38 PKT" depends-on-methods="PIM.Edit_Employee.loginTest" duration-ms="25321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmployeeTest -->
+        <test-method signature="logoutTest()[pri:3, instance:PIM.Edit_Employee@4a9f80d3]" started-at="2025-10-18T00:21:38 PKT" name="logoutTest" finished-at="2025-10-18T00:21:39 PKT" depends-on-methods="PIM.Edit_Employee.editEmployeeTest" duration-ms="1480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:PIM.Edit_Employee@4a9f80d3]" started-at="2025-10-18T00:21:39 PKT" name="TearDown" finished-at="2025-10-18T00:21:40 PKT" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- PIM.Edit_Employee -->
+      <class name="PIM.Delete_AllEmployee">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PIM.Delete_AllEmployee@3e2943ab]" started-at="2025-10-18T00:20:45 PKT" name="setUp" finished-at="2025-10-18T00:20:49 PKT" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:PIM.Delete_AllEmployee@3e2943ab]" started-at="2025-10-18T00:20:49 PKT" name="loginTest" finished-at="2025-10-18T00:20:52 PKT" duration-ms="3349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="deleteAllEmployeesTest()[pri:2, instance:PIM.Delete_AllEmployee@3e2943ab]" started-at="2025-10-18T00:20:52 PKT" name="deleteAllEmployeesTest" finished-at="2025-10-18T00:20:54 PKT" depends-on-methods="PIM.Delete_AllEmployee.loginTest" duration-ms="2352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllEmployeesTest -->
+        <test-method signature="logoutTest()[pri:3, instance:PIM.Delete_AllEmployee@3e2943ab]" started-at="2025-10-18T00:20:54 PKT" name="logoutTest" finished-at="2025-10-18T00:20:56 PKT" depends-on-methods="PIM.Delete_AllEmployee.deleteAllEmployeesTest" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:PIM.Delete_AllEmployee@3e2943ab]" started-at="2025-10-18T00:20:56 PKT" name="TearDown" finished-at="2025-10-18T00:20:56 PKT" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- PIM.Delete_AllEmployee -->
+      <class name="PIM.Add_Employee">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PIM.Add_Employee@26fb628]" started-at="2025-10-18T00:20:18 PKT" name="setUp" finished-at="2025-10-18T00:20:22 PKT" duration-ms="3756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:PIM.Add_Employee@26fb628]" started-at="2025-10-18T00:20:22 PKT" name="loginTest" finished-at="2025-10-18T00:20:25 PKT" duration-ms="2925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="addEmployeeTest()[pri:2, instance:PIM.Add_Employee@26fb628]" started-at="2025-10-18T00:20:25 PKT" name="addEmployeeTest" finished-at="2025-10-18T00:20:44 PKT" depends-on-methods="PIM.Add_Employee.loginTest" duration-ms="18836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeTest -->
+        <test-method signature="logoutTest()[pri:3, instance:PIM.Add_Employee@26fb628]" started-at="2025-10-18T00:20:44 PKT" name="logoutTest" finished-at="2025-10-18T00:20:45 PKT" depends-on-methods="PIM.Add_Employee.addEmployeeTest" duration-ms="1329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:PIM.Add_Employee@26fb628]" started-at="2025-10-18T00:20:45 PKT" name="TearDown" finished-at="2025-10-18T00:20:45 PKT" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- PIM.Add_Employee -->
+      <class name="PIM.Search_Employee">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PIM.Search_Employee@35beb15e]" started-at="2025-10-18T00:21:40 PKT" name="setUp" finished-at="2025-10-18T00:21:43 PKT" duration-ms="3379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:PIM.Search_Employee@35beb15e]" started-at="2025-10-18T00:21:43 PKT" name="loginTest" finished-at="2025-10-18T00:21:46 PKT" duration-ms="2970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="searchEmployeeTest()[pri:2, instance:PIM.Search_Employee@35beb15e]" started-at="2025-10-18T00:21:46 PKT" name="searchEmployeeTest" finished-at="2025-10-18T00:21:48 PKT" depends-on-methods="PIM.Search_Employee.loginTest" duration-ms="2138" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Record text does not match! expected [(1) Record Found] but found [No Records Found]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Record text does not match! expected [(1) Record Found] but found [No Records Found]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at orangehrm.PageObject.PIM_SearchEmployee.getRecordText(PIM_SearchEmployee.java:106)
+at PIM.Search_Employee.searchEmployeeTest(Search_Employee.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmployeeTest -->
+        <test-method signature="logoutTest()[pri:3, instance:PIM.Search_Employee@35beb15e]" started-at="2025-10-18T00:21:48 PKT" name="logoutTest" finished-at="2025-10-18T00:21:48 PKT" depends-on-methods="PIM.Search_Employee.searchEmployeeTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PIM.Search_Employee.logoutTest() on instance PIM.Search_Employee@35beb15e depends on not successfully finished methods 
+[PIM.Search_Employee.searchEmployeeTest() on instance PIM.Search_Employee@35beb15e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PIM.Search_Employee.logoutTest() on instance PIM.Search_Employee@35beb15e depends on not successfully finished methods 
+[PIM.Search_Employee.searchEmployeeTest() on instance PIM.Search_Employee@35beb15e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:PIM.Search_Employee@35beb15e]" started-at="2025-10-18T00:21:48 PKT" name="TearDown" finished-at="2025-10-18T00:21:48 PKT" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- PIM.Search_Employee -->
+    </test> <!-- PIM Module Tests -->
+    <test started-at="2025-10-18T00:21:49 PKT" name="Recruitment Module Tests" finished-at="2025-10-18T00:22:23 PKT" duration-ms="34937">
+      <class name="Recruitment.DeleteRecruitment">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Recruitment.DeleteRecruitment@1c98290c]" started-at="2025-10-18T00:22:01 PKT" name="setUp" finished-at="2025-10-18T00:22:04 PKT" duration-ms="3338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:Recruitment.DeleteRecruitment@1c98290c]" started-at="2025-10-18T00:22:04 PKT" name="loginTest" finished-at="2025-10-18T00:22:07 PKT" duration-ms="2952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="deleteApplicantTest()[pri:2, instance:Recruitment.DeleteRecruitment@1c98290c]" started-at="2025-10-18T00:22:07 PKT" name="deleteApplicantTest" finished-at="2025-10-18T00:22:08 PKT" depends-on-methods="Recruitment.DeleteRecruitment.loginTest" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteApplicantTest -->
+        <test-method signature="logoutTest()[pri:3, instance:Recruitment.DeleteRecruitment@1c98290c]" started-at="2025-10-18T00:22:08 PKT" name="logoutTest" finished-at="2025-10-18T00:22:10 PKT" depends-on-methods="Recruitment.DeleteRecruitment.deleteApplicantTest" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Recruitment.DeleteRecruitment@1c98290c]" started-at="2025-10-18T00:22:10 PKT" name="TearDown" finished-at="2025-10-18T00:22:10 PKT" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Recruitment.DeleteRecruitment -->
+      <class name="Recruitment.EditRecruitment">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Recruitment.EditRecruitment@172ca72b]" started-at="2025-10-18T00:22:10 PKT" name="setUp" finished-at="2025-10-18T00:22:13 PKT" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:Recruitment.EditRecruitment@172ca72b]" started-at="2025-10-18T00:22:13 PKT" name="loginTest" finished-at="2025-10-18T00:22:17 PKT" duration-ms="3250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="editApplicantTest()[pri:2, instance:Recruitment.EditRecruitment@172ca72b]" started-at="2025-10-18T00:22:17 PKT" name="editApplicantTest" finished-at="2025-10-18T00:22:22 PKT" depends-on-methods="Recruitment.EditRecruitment.loginTest" duration-ms="5197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editApplicantTest -->
+        <test-method signature="logoutTest()[pri:3, instance:Recruitment.EditRecruitment@172ca72b]" started-at="2025-10-18T00:22:22 PKT" name="logoutTest" finished-at="2025-10-18T00:22:23 PKT" depends-on-methods="Recruitment.EditRecruitment.editApplicantTest" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Recruitment.EditRecruitment@172ca72b]" started-at="2025-10-18T00:22:23 PKT" name="TearDown" finished-at="2025-10-18T00:22:23 PKT" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Recruitment.EditRecruitment -->
+      <class name="Recruitment.AddApplicationwithShortlist">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Recruitment.AddApplicationwithShortlist@2d10e0b1]" started-at="2025-10-18T00:21:49 PKT" name="setUp" finished-at="2025-10-18T00:21:52 PKT" duration-ms="3309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:Recruitment.AddApplicationwithShortlist@2d10e0b1]" started-at="2025-10-18T00:21:52 PKT" name="loginTest" finished-at="2025-10-18T00:21:55 PKT" duration-ms="3070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="addApplicantWithShortlistTest()[pri:2, instance:Recruitment.AddApplicationwithShortlist@2d10e0b1]" started-at="2025-10-18T00:21:55 PKT" name="addApplicantWithShortlistTest" finished-at="2025-10-18T00:21:59 PKT" depends-on-methods="Recruitment.AddApplicationwithShortlist.loginTest" duration-ms="4017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addApplicantWithShortlistTest -->
+        <test-method signature="logoutTest()[pri:3, instance:Recruitment.AddApplicationwithShortlist@2d10e0b1]" started-at="2025-10-18T00:21:59 PKT" name="logoutTest" finished-at="2025-10-18T00:22:00 PKT" depends-on-methods="Recruitment.AddApplicationwithShortlist.addApplicantWithShortlistTest" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Recruitment.AddApplicationwithShortlist@2d10e0b1]" started-at="2025-10-18T00:22:00 PKT" name="TearDown" finished-at="2025-10-18T00:22:01 PKT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Recruitment.AddApplicationwithShortlist -->
+    </test> <!-- Recruitment Module Tests -->
+  </suite> <!-- OrangeHRM Test Suite -->
+</testng-results>

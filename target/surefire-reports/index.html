@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-OrangeHRM_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">OrangeHRM Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-OrangeHRM_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\shykh\eclipse-workspace\orangehrm-automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-OrangeHRM_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-OrangeHRM_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-OrangeHRM_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-OrangeHRM_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-OrangeHRM_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-OrangeHRM_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">50 methods, 3 failed,  3 skipped,  44 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-OrangeHRM_Test_Suite" class="hide-methods failed suite-OrangeHRM_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-OrangeHRM_Test_Suite -->
+                      <a href="#" panel-name="suite-OrangeHRM_Test_Suite" class="show-methods failed suite-OrangeHRM_Test_Suite"> (show)</a> <!-- show-methods failed suite-OrangeHRM_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-OrangeHRM_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Admin.Edit_User" class="method navigator-link" hash-for-method="editUserTest">editUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Search_Employee" class="method navigator-link" hash-for-method="searchEmployeeTest">searchEmployeeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Admin.Search_User" class="method navigator-link" hash-for-method="searchUserTest">searchUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-OrangeHRM_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-OrangeHRM_Test_Suite" class="hide-methods skipped suite-OrangeHRM_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-OrangeHRM_Test_Suite -->
+                      <a href="#" panel-name="suite-OrangeHRM_Test_Suite" class="show-methods skipped suite-OrangeHRM_Test_Suite"> (show)</a> <!-- show-methods skipped suite-OrangeHRM_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-OrangeHRM_Test_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Admin.Edit_User" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Admin.Search_User" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Search_Employee" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-OrangeHRM_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OrangeHRM_Test_Suite" class="hide-methods passed suite-OrangeHRM_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-OrangeHRM_Test_Suite -->
+                      <a href="#" panel-name="suite-OrangeHRM_Test_Suite" class="show-methods passed suite-OrangeHRM_Test_Suite"> (show)</a> <!-- show-methods passed suite-OrangeHRM_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-OrangeHRM_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Recruitment.AddApplicationwithShortlist" class="method navigator-link" hash-for-method="addApplicantWithShortlistTest">addApplicantWithShortlistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Add_Employee" class="method navigator-link" hash-for-method="addEmployeeTest">addEmployeeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Buzz.AddPost" class="method navigator-link" hash-for-method="addLikeCommentTest">addLikeCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Claim.AddClaim" class="method navigator-link" hash-for-method="assignClaimTest(ha, Russel Hamilton, Medical Reimbursement, Pakistan Rupee, This demo Remarks)">assignClaimTest(ha, Russel Hamilton, Medical Reimbursement, Pakistan Rupee, This demo Remarks)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Claim.AddClaim" class="method navigator-link" hash-for-method="assignClaimTest(ha, Russel Hamilton, Accommodation, United States Dollar, Food testing remarks)">assignClaimTest(ha, Russel Hamilton, Accommodation, United States Dollar, Food testing remarks)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Claim.AddClaim" class="method navigator-link" hash-for-method="assignClaimTest(ha, Russel Hamilton, Travel Allowance, Pakistan Rupee, This is Testing Remarks)">assignClaimTest(ha, Russel Hamilton, Travel Allowance, Pakistan Rupee, This is Testing Remarks)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Admin.Create_User" class="method navigator-link" hash-for-method="createUserTest">createUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Delete_AllEmployee" class="method navigator-link" hash-for-method="deleteAllEmployeesTest">deleteAllEmployeesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Recruitment.DeleteRecruitment" class="method navigator-link" hash-for-method="deleteApplicantTest">deleteApplicantTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Delete_Employee" class="method navigator-link" hash-for-method="deleteEmployeeTest">deleteEmployeeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Buzz.DeletePost" class="method navigator-link" hash-for-method="deletePostTest">deletePostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Admin.Delete_User" class="method navigator-link" hash-for-method="deleteUserTest">deleteUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Recruitment.EditRecruitment" class="method navigator-link" hash-for-method="editApplicantTest">editApplicantTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Edit_Employee" class="method navigator-link" hash-for-method="editEmployeeTest">editEmployeeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Buzz.EditPost" class="method navigator-link" hash-for-method="editPostTest">editPostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Admin.Edit_User" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Admin.Delete_User" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Admin.Create_User" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Admin.Search_User" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Buzz.AddPost" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Buzz.EditPost" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Buzz.DeletePost" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Claim.AddClaim" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Delete_AllEmployee" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Delete_Employee" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Search_Employee" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Add_Employee" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Edit_Employee" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Recruitment.DeleteRecruitment" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Recruitment.AddApplicationwithShortlist" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Recruitment.EditRecruitment" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Admin.Delete_User" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Admin.Create_User" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Buzz.EditPost" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Buzz.AddPost" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Buzz.DeletePost" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Claim.AddClaim" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Add_Employee" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Delete_AllEmployee" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Delete_Employee" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="PIM.Edit_Employee" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Recruitment.EditRecruitment" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Recruitment.AddApplicationwithShortlist" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Test_Suite" title="Recruitment.DeleteRecruitment" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OrangeHRM_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OrangeHRM_Test_Suite" class="panel OrangeHRM_Test_Suite">
+          <div class="suite-OrangeHRM_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Admin.Search_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchUserTest">
+                  </a> <!-- searchUserTest -->
+                  <span class="method-name">searchUserTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Record text did not match! expected [(1) Record Found] but found [No Records Found]
+	at orangehrm.PageObject.Admin_SearchUser.getRecordText(Admin_SearchUser.java:110)
+	at Admin.Search_User.searchUserTest(Search_User.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-failed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">PIM.Search_Employee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchEmployeeTest">
+                  </a> <!-- searchEmployeeTest -->
+                  <span class="method-name">searchEmployeeTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Record text does not match! expected [(1) Record Found] but found [No Records Found]
+	at orangehrm.PageObject.PIM_SearchEmployee.getRecordText(PIM_SearchEmployee.java:106)
+	at PIM.Search_Employee.searchEmployeeTest(Search_Employee.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-failed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Admin.Edit_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editUserTest">
+                  </a> <!-- editUserTest -->
+                  <span class="method-name">editUserTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (2b3d0a4143c1434196dfa6b7a410fbcd)] -&gt; xpath: //div[contains(@class,&apos;oxd-toast&apos;)]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.107, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: C:\Users\shykh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60894/devtoo..., se:cdpVersion: 141.0.7390.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b3d0a4143c1434196dfa6b7a410fbcd
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at orangehrm.PageObject.LoginPage.getToastMessage(LoginPage.java:97)
+	at orangehrm.PageObject.LoginPage.verifyToastMessage(LoginPage.java:104)
+	at Admin.Edit_User.editUserTest(Edit_User.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-failed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Admin.Search_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Admin.Search_User.logoutTest() on instance Admin.Search_User@631e06ab depends on not successfully finished methods 
+[Admin.Search_User.searchUserTest() on instance Admin.Search_User@631e06ab]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-skipped -->
+          <div class="suite-OrangeHRM_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">PIM.Search_Employee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method PIM.Search_Employee.logoutTest() on instance PIM.Search_Employee@35beb15e depends on not successfully finished methods 
+[PIM.Search_Employee.searchEmployeeTest() on instance PIM.Search_Employee@35beb15e]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-skipped -->
+          <div class="suite-OrangeHRM_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Admin.Edit_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Admin.Edit_User.logoutTest() on instance Admin.Edit_User@6d0b5baf depends on not successfully finished methods 
+[Admin.Edit_User.editUserTest() on instance Admin.Edit_User@6d0b5baf]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-skipped -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PIM.Delete_AllEmployee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteAllEmployeesTest">
+                  </a> <!-- deleteAllEmployeesTest -->
+                  <span class="method-name">deleteAllEmployeesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Recruitment.EditRecruitment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editApplicantTest">
+                  </a> <!-- editApplicantTest -->
+                  <span class="method-name">editApplicantTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Buzz.AddPost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addLikeCommentTest">
+                  </a> <!-- addLikeCommentTest -->
+                  <span class="method-name">addLikeCommentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Buzz.EditPost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPostTest">
+                  </a> <!-- editPostTest -->
+                  <span class="method-name">editPostTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Buzz.DeletePost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePostTest">
+                  </a> <!-- deletePostTest -->
+                  <span class="method-name">deletePostTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Admin.Edit_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PIM.Delete_Employee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteEmployeeTest">
+                  </a> <!-- deleteEmployeeTest -->
+                  <span class="method-name">deleteEmployeeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Recruitment.AddApplicationwithShortlist</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addApplicantWithShortlistTest">
+                  </a> <!-- addApplicantWithShortlistTest -->
+                  <span class="method-name">addApplicantWithShortlistTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Claim.AddClaim</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assignClaimTest(ha, Russel Hamilton, Medical Reimbursement, Pakistan Rupee, This demo Remarks)">
+                  </a> <!-- assignClaimTest(ha, Russel Hamilton, Medical Reimbursement, Pakistan Rupee, This demo Remarks) -->
+                  <span class="method-name">assignClaimTest</span>
+                  <span class="parameters">(ha,Russel Hamilton,Medical Reimbursement,Pakistan Rupee,This demo Remarks)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assignClaimTest(ha, Russel Hamilton, Accommodation, United States Dollar, Food testing remarks)">
+                  </a> <!-- assignClaimTest(ha, Russel Hamilton, Accommodation, United States Dollar, Food testing remarks) -->
+                  <span class="method-name">assignClaimTest</span>
+                  <span class="parameters">(ha,Russel Hamilton,Accommodation,United States Dollar,Food testing remarks)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="assignClaimTest(ha, Russel Hamilton, Travel Allowance, Pakistan Rupee, This is Testing Remarks)">
+                  </a> <!-- assignClaimTest(ha, Russel Hamilton, Travel Allowance, Pakistan Rupee, This is Testing Remarks) -->
+                  <span class="method-name">assignClaimTest</span>
+                  <span class="parameters">(ha,Russel Hamilton,Travel Allowance,Pakistan Rupee,This is Testing Remarks)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Admin.Search_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Admin.Delete_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUserTest">
+                  </a> <!-- deleteUserTest -->
+                  <span class="method-name">deleteUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Recruitment.DeleteRecruitment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteApplicantTest">
+                  </a> <!-- deleteApplicantTest -->
+                  <span class="method-name">deleteApplicantTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PIM.Add_Employee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmployeeTest">
+                  </a> <!-- addEmployeeTest -->
+                  <span class="method-name">addEmployeeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PIM.Search_Employee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Admin.Create_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserTest">
+                  </a> <!-- createUserTest -->
+                  <span class="method-name">createUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PIM.Edit_Employee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editEmployeeTest">
+                  </a> <!-- editEmployeeTest -->
+                  <span class="method-name">editEmployeeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Test_Suite-class-passed -->
+        </div> <!-- panel OrangeHRM_Test_Suite -->
+        <div panel-name="test-xml-OrangeHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shykh\eclipse-workspace\orangehrm-automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;OrangeHRM Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;orangehrm.utility.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Admin Module Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Admin.Create_User&quot;/&gt;
+      &lt;class name=&quot;Admin.Delete_User&quot;/&gt;
+      &lt;class name=&quot;Admin.Edit_User&quot;/&gt;
+      &lt;class name=&quot;Admin.Search_User&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Admin Module Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Buzz Module Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Buzz.AddPost&quot;/&gt;
+      &lt;class name=&quot;Buzz.DeletePost&quot;/&gt;
+      &lt;class name=&quot;Buzz.EditPost&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Buzz Module Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Claim Module Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Claim.AddClaim&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Claim Module Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PIM Module Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;PIM.Add_Employee&quot;/&gt;
+      &lt;class name=&quot;PIM.Delete_AllEmployee&quot;/&gt;
+      &lt;class name=&quot;PIM.Delete_Employee&quot;/&gt;
+      &lt;class name=&quot;PIM.Edit_Employee&quot;/&gt;
+      &lt;class name=&quot;PIM.Search_Employee&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PIM Module Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Recruitment Module Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Recruitment.AddApplicationwithShortlist&quot;/&gt;
+      &lt;class name=&quot;Recruitment.DeleteRecruitment&quot;/&gt;
+      &lt;class name=&quot;Recruitment.EditRecruitment&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Recruitment Module Tests --&gt;
+&lt;/suite&gt; &lt;!-- OrangeHRM Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OrangeHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OrangeHRM Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Admin Module Tests (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Buzz Module Tests (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Claim Module Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PIM Module Tests (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Recruitment Module Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OrangeHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OrangeHRM Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OrangeHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OrangeHRM Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OrangeHRM_Test_Suite');
+function tableData_OrangeHRM_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(50);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'editEmployeeTest')
+data.setCell(0, 2, 'PIM.Edit_Employee')
+data.setCell(0, 3, 25321);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createUserTest')
+data.setCell(1, 2, 'Admin.Create_User')
+data.setCell(1, 3, 21159);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addEmployeeTest')
+data.setCell(2, 2, 'PIM.Add_Employee')
+data.setCell(2, 3, 18836);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginTest')
+data.setCell(3, 2, 'Admin.Create_User')
+data.setCell(3, 3, 17787);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'assignClaimTest')
+data.setCell(4, 2, 'Claim.AddClaim')
+data.setCell(4, 3, 16407);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'assignClaimTest')
+data.setCell(5, 2, 'Claim.AddClaim')
+data.setCell(5, 3, 16180);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'assignClaimTest')
+data.setCell(6, 2, 'Claim.AddClaim')
+data.setCell(6, 3, 16045);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'editUserTest')
+data.setCell(7, 2, 'Admin.Edit_User')
+data.setCell(7, 3, 14174);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'editApplicantTest')
+data.setCell(8, 2, 'Recruitment.EditRecruitment')
+data.setCell(8, 3, 5197);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addApplicantWithShortlistTest')
+data.setCell(9, 2, 'Recruitment.AddApplicationwithShortlist')
+data.setCell(9, 3, 4017);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'editPostTest')
+data.setCell(10, 2, 'Buzz.EditPost')
+data.setCell(10, 3, 3764);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginTest')
+data.setCell(11, 2, 'Admin.Search_User')
+data.setCell(11, 3, 3682);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginTest')
+data.setCell(12, 2, 'Buzz.DeletePost')
+data.setCell(12, 3, 3364);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginTest')
+data.setCell(13, 2, 'PIM.Delete_Employee')
+data.setCell(13, 3, 3356);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginTest')
+data.setCell(14, 2, 'PIM.Delete_AllEmployee')
+data.setCell(14, 3, 3349);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginTest')
+data.setCell(15, 2, 'Admin.Edit_User')
+data.setCell(15, 3, 3313);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginTest')
+data.setCell(16, 2, 'Recruitment.EditRecruitment')
+data.setCell(16, 3, 3250);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'deletePostTest')
+data.setCell(17, 2, 'Buzz.DeletePost')
+data.setCell(17, 3, 3196);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginTest')
+data.setCell(18, 2, 'Admin.Delete_User')
+data.setCell(18, 3, 3125);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'addLikeCommentTest')
+data.setCell(19, 2, 'Buzz.AddPost')
+data.setCell(19, 3, 3115);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'loginTest')
+data.setCell(20, 2, 'Recruitment.AddApplicationwithShortlist')
+data.setCell(20, 3, 3070);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'loginTest')
+data.setCell(21, 2, 'Claim.AddClaim')
+data.setCell(21, 3, 3029);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'loginTest')
+data.setCell(22, 2, 'PIM.Search_Employee')
+data.setCell(22, 3, 2970);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'loginTest')
+data.setCell(23, 2, 'Buzz.AddPost')
+data.setCell(23, 3, 2953);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginTest')
+data.setCell(24, 2, 'Recruitment.DeleteRecruitment')
+data.setCell(24, 3, 2952);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'loginTest')
+data.setCell(25, 2, 'PIM.Edit_Employee')
+data.setCell(25, 3, 2949);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'loginTest')
+data.setCell(26, 2, 'PIM.Add_Employee')
+data.setCell(26, 3, 2925);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'searchUserTest')
+data.setCell(27, 2, 'Admin.Search_User')
+data.setCell(27, 3, 2914);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'loginTest')
+data.setCell(28, 2, 'Buzz.EditPost')
+data.setCell(28, 3, 2575);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'deleteAllEmployeesTest')
+data.setCell(29, 2, 'PIM.Delete_AllEmployee')
+data.setCell(29, 3, 2352);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'searchEmployeeTest')
+data.setCell(30, 2, 'PIM.Search_Employee')
+data.setCell(30, 3, 2138);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'deleteUserTest')
+data.setCell(31, 2, 'Admin.Delete_User')
+data.setCell(31, 3, 2103);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'deleteEmployeeTest')
+data.setCell(32, 2, 'PIM.Delete_Employee')
+data.setCell(32, 3, 2084);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'logoutTest')
+data.setCell(33, 2, 'Claim.AddClaim')
+data.setCell(33, 3, 1726);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'logoutTest')
+data.setCell(34, 2, 'Buzz.DeletePost')
+data.setCell(34, 3, 1622);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'deleteApplicantTest')
+data.setCell(35, 2, 'Recruitment.DeleteRecruitment')
+data.setCell(35, 3, 1613);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'logoutTest')
+data.setCell(36, 2, 'Recruitment.EditRecruitment')
+data.setCell(36, 3, 1484);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'logoutTest')
+data.setCell(37, 2, 'PIM.Edit_Employee')
+data.setCell(37, 3, 1480);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'logoutTest')
+data.setCell(38, 2, 'Buzz.EditPost')
+data.setCell(38, 3, 1471);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'logoutTest')
+data.setCell(39, 2, 'Admin.Create_User')
+data.setCell(39, 3, 1463);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'logoutTest')
+data.setCell(40, 2, 'Buzz.AddPost')
+data.setCell(40, 3, 1459);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'logoutTest')
+data.setCell(41, 2, 'Admin.Delete_User')
+data.setCell(41, 3, 1458);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'logoutTest')
+data.setCell(42, 2, 'PIM.Delete_Employee')
+data.setCell(42, 3, 1368);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'logoutTest')
+data.setCell(43, 2, 'Recruitment.AddApplicationwithShortlist')
+data.setCell(43, 3, 1363);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'logoutTest')
+data.setCell(44, 2, 'PIM.Delete_AllEmployee')
+data.setCell(44, 3, 1354);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'logoutTest')
+data.setCell(45, 2, 'PIM.Add_Employee')
+data.setCell(45, 3, 1329);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'logoutTest')
+data.setCell(46, 2, 'Recruitment.DeleteRecruitment')
+data.setCell(46, 3, 1319);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'logoutTest')
+data.setCell(47, 2, 'Admin.Edit_User')
+data.setCell(47, 3, 1);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'logoutTest')
+data.setCell(48, 2, 'Admin.Search_User')
+data.setCell(48, 3, 1);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'logoutTest')
+data.setCell(49, 2, 'PIM.Search_Employee')
+data.setCell(49, 3, 0);
+window.suiteTableData['OrangeHRM_Test_Suite']= { tableData: data, tableDiv: 'times-div-OrangeHRM_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-OrangeHRM_Test_Suite">
+              </div> <!-- times-div-OrangeHRM_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OrangeHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OrangeHRM Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OrangeHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OrangeHRM_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Admin.Create_User</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">4270 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserTest</span>
+                <span class="method-start">22094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">43256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">44720 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Admin.Delete_User</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44990 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">48497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUserTest</span>
+                <span class="method-start">51624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">53729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">55188 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Admin.Edit_User</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">55388 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">58956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">editUserTest</span>
+                <span class="method-start">62270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">76564 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Admin.Search_User</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">76814 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">80211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchUserTest</span>
+                <span class="method-start">83894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">86978 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Buzz.AddPost</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">87835 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">91247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addLikeCommentTest</span>
+                <span class="method-start">94201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">97318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">98778 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Buzz.DeletePost</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">99069 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">102602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePostTest</span>
+                <span class="method-start">105967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">109164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">110787 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Buzz.EditPost</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">111044 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">114481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editPostTest</span>
+                <span class="method-start">117057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">120824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">122295 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Claim.AddClaim</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">122608 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">125950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assignClaimTest(ha, Russel Hamilton, Travel Allowance, Pakistan Rupee, This is Testing Remarks)</span>
+                <span class="method-start">129082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assignClaimTest(ha, Russel Hamilton, Accommodation, United States Dollar, Food testing remarks)</span>
+                <span class="method-start">145128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assignClaimTest(ha, Russel Hamilton, Medical Reimbursement, Pakistan Rupee, This demo Remarks)</span>
+                <span class="method-start">161309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">177717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">179444 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PIM.Add_Employee</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">179811 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">183568 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addEmployeeTest</span>
+                <span class="method-start">186493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">205330 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">206659 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PIM.Delete_AllEmployee</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">206936 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">210449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteAllEmployeesTest</span>
+                <span class="method-start">213799 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">216153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">217507 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PIM.Delete_Employee</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">217749 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">221131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteEmployeeTest</span>
+                <span class="method-start">224488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">226574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">227943 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PIM.Edit_Employee</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">228152 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">231333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editEmployeeTest</span>
+                <span class="method-start">234284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">259608 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">261089 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PIM.Search_Employee</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">261373 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">264752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchEmployeeTest</span>
+                <span class="method-start">267724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">270033 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Recruitment.AddApplicationwithShortlist</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">270362 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">273671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addApplicantWithShortlistTest</span>
+                <span class="method-start">276742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">280761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">282125 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Recruitment.DeleteRecruitment</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">282327 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">285665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteApplicantTest</span>
+                <span class="method-start">288618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">290234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">291554 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Recruitment.EditRecruitment</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">291772 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">295110 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editApplicantTest</span>
+                <span class="method-start">298360 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">303559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">305044 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
