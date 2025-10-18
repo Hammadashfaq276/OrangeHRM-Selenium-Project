@@ -62,7 +62,7 @@ public class Search_User extends BaseClass {
         adminsearchuser = new Admin_SearchUser(BaseClass.driver);
 
         log.info("Entering search criteria...");
-        adminsearchuser.enterUsername("Hammad123");
+        adminsearchuser.enterUsername("Hammad125");
         adminsearchuser.selectUserRole("Admin");
         adminsearchuser.selectAutoComplete("ha", "Russel Hamilton");
         adminsearchuser.selectStatus("Enabled");
