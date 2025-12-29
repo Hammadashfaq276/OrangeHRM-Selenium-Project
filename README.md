@@ -1,127 +1,152 @@
-1️⃣ Project Title
+📌 Project Overview
 
-Use a clear and professional title:
+This project is an end-to-end Selenium Automation Testing Framework developed for the OrangeHRM Web Application using Java.
+It follows real-time automation best practices such as Page Object Model (POM), Data Driven Testing, Extent Reporting, and CI/CD execution using Jenkins.
 
-OrangeHRM Selenium Automation Framework
+This framework is designed for learning, practice, and SDET portfolio purposes.
 
-2️⃣ Project Overview (Very Important)
+🛠️ Tech Stack & Tools
 
-Explain:
+Programming Language: Java
 
-What the project is
+Automation Tool: Selenium WebDriver
 
-Which application is automated
+Test Framework: TestNG
 
-Which tools and framework are used
+Build Tool: Maven
 
-Example:
+Framework Design: Page Object Model (POM)
 
-This project is an end-to-end Selenium automation framework for the OrangeHRM web application, developed using Java, TestNG, Page Object Model (POM), Extent Reports, and Jenkins.
+Reporting: Extent HTML Reports
 
-3️⃣ Tech Stack / Tools Used
+CI/CD: Jenkins
 
-Recruiters check this section first 👀
+Version Control: Git & GitHub
 
-Java
+IDE: Eclipse / IntelliJ IDEA
 
-Selenium WebDriver
+📂 Project Structure
+OrangeHRM-Selenium-Automation
+│
+├── src/main/java
+│   ├── base            → WebDriver & Base configuration
+│   ├── utilities       → Config, Excel, Report utilities
+│
+├── src/test/java
+│   ├── Admin           → Admin module test cases
+│   ├── PIM             → PIM module test cases
+│   ├── Recruitment     → Recruitment module test cases
+│   ├── Buzz            → Buzz module test cases
+│   ├── Claim           → Claim module test cases
+│   ├── orangehrm       → Common flows (Login / Logout)
+│
+├── logs                → Execution logs
+├── reports             → Extent HTML reports
+├── test-output         → TestNG reports
+├── pom.xml             → Maven dependencies
+├── testng.xml          → TestNG suite file
+└── README.md
 
-TestNG
+🧩 Modules Automated
 
-Maven
+Admin Module
 
-Jenkins
+User Management
 
-Git & GitHub
+Role & permission validation
 
-4️⃣ Framework Architecture
+PIM Module
 
-Mention the framework design:
+Add Employee
 
-Page Object Model (POM)
+Search Employee
 
-Data Driven Testing (Excel)
+Employee details validation
 
-TestNG Suite (testng.xml)
+Recruitment Module
 
-5️⃣ Project Structure
+Candidate management
 
-Add a simple directory structure:
+Vacancy validation
 
-src/main/java
-src/test/java
-reports
-logs
-pom.xml
-testng.xml
+Buzz Module
 
-6️⃣ Modules Covered (Strong Point)
+Post creation and validation
 
-List all automated modules:
+Claim Module
 
-Admin
+Claim creation
 
-PIM
+Claim status verification
 
-Recruitment
+Common Flows
 
-Buzz
+Login
 
-Claim
+Logout
 
-Login & Logout (Common flows)
+Dashboard validation
 
-7️⃣ Key Features
-
-Add bullet points:
+✅ Key Features
 
 ✔ Page Object Model (POM) framework
-
 ✔ Data Driven Testing using Excel
-
 ✔ TestNG-based execution
-
-✔ Extent HTML Reports with screenshots
-
-✔ Jenkins CI/CD integration
-
+✔ Extent HTML Reports with screenshots on failure
+✔ Module-wise test case organization
+✔ Maven build management
+✔ Jenkins CI/CD execution
 ✔ GitHub version control
 
-8️⃣ Reports Section
+📊 Reporting
 
-Mention reporting clearly:
+Extent Reports are generated after every execution
 
-Extent Reports are generated after execution
+Reports include:
 
-Screenshots are captured on test failure
+Test pass/fail status
 
-(Optional but recommended: add a report screenshot)
+Execution steps
 
-9️⃣ CI/CD – Jenkins Integration
+Screenshots on failure
 
-Very important for international roles:
+(Extent report screenshots can be added for better presentation)
 
-Tests are executed via Jenkins job
+🔁 CI/CD – Jenkins Integration
 
-Jenkins pulls code from GitHub
+This project is configured to run using Jenkins:
 
-Maven build and TestNG suite execution
+Jenkins pulls the latest code from GitHub
 
-🔟 How to Run the Project
+Maven build is executed
 
-Keep it simple:
+TestNG test suite runs
 
-Clone the repository
+Extent Reports are generated
 
-Open the project in an IDE
+▶️ How to Run the Project Locally
 
-Run testng.xml
+Clone the repository:
 
-1️⃣1️⃣ Author Information
+git clone https://github.com/Hammadashfaq276/<repository-name>.git
 
-Add your name and role:
 
-Hammad Ashfaq  
-SDET | Automation Test Engineer
+Open the project in your IDE
+
+Allow Maven dependencies to download
+
+Run testng.xml or individual test classes
+
+⚙️ Configuration
+
+Browser and environment settings are managed via configuration files
+
+Test data is maintained using Excel files (Data Driven approach)
+
+👨‍💻 Author
+
+Hammad Ashfaq
+Role: SDET | Automation Test Engineer
+Skills: Selenium | Java | TestNG | Jenkins | Git
 
 <img width="1908" height="939" alt="image" src="https://github.com/user-attachments/assets/44cfc37a-3788-4a1f-a175-6396c275d84b" />
